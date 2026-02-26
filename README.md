@@ -7,7 +7,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=500&lines=Welcome+to+my+GitHub!;React+Developer;AI+Builder;Competitive+Programmer ;Full Stack Developer" />
 </p>
 
-## 📊 GitHub Stats
+## 📊 GitHub Status
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=abdulkani007&show_icons=true&theme=tokyonight" />
