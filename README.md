@@ -227,9 +227,9 @@ A localized AI assistant designed to execute system-level automation and command
 ## 📊 System Metrics &amp; GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdulkani007&show_icons=true&theme=tokyonight&bg_color=0B1329&title_color=00E5FF&text_color=94A3B8&icon_color=3B82F6&border_color=1E293B" width="48%" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=abdulkani007&show_icons=true&theme=tokyonight&bg_color=0B1329&title_color=00E5FF&text_color=94A3B8&icon_color=3B82F6&border_color=1E293B" width="48%" alt="GitHub Stats" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulkani007&layout=compact&theme=tokyonight&bg_color=0B1329&title_color=00E5FF&text_color=94A3B8&icon_color=3B82F6&border_color=1E293B" width="48%" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=abdulkani007&layout=compact&theme=tokyonight&bg_color=0B1329&title_color=00E5FF&text_color=94A3B8&icon_color=3B82F6&border_color=1E293B" width="48%" alt="Top Languages" />
 </p>
 
 <p align="center">
