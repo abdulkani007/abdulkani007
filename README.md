@@ -7,7 +7,7 @@
 
 <div align="center">
   <!-- Minimalist Visitor Counter Badge -->
-  <img src="https://badge.komarev.com/normal-badge/?username=abdulkani007&style=flat-square&label=VISITORS&color=00E5FF&labelColor=0B1329" alt="Visitor Counter" />
+  <img src="https://komarev.com/ghpvc/?username=abdulkani007&style=flat-square&label=VISITORS&color=00e5ff&labelColor=0b1329" alt="Visitor Counter" />
 </div>
 
 <br/>
