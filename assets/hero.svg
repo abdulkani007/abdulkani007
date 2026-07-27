@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="100%" height="100%">
   <defs>
-    <!-- System Fonts -->
+    <!-- System Fonts & Typing Animations -->
     <style type="text/css">
       .brand-title {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        font-weight: 900;
-        font-size: 46px;
+        font-family: "Century Gothic", Futura, "Segoe UI", system-ui, sans-serif;
+        font-weight: 800;
+        font-size: 38px;
         fill: #ffffff;
-        letter-spacing: -0.03em;
+        letter-spacing: 0.08em;
       }
       
       .brand-subtitle {
@@ -33,6 +33,31 @@
         font-weight: 600;
       }
       
+      /* Typing Animation for Name */
+      @keyframes type-name {
+        0%, 10% { width: 0; }
+        70%, 90% { width: 350px; }
+        100% { width: 350px; }
+      }
+
+      @keyframes move-cursor {
+        0%, 10% { transform: translateX(0); }
+        70%, 90% { transform: translateX(350px); }
+        100% { transform: translateX(350px); }
+      }
+
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
+
+      #clip-rect {
+        animation: type-name 5s steps(12, end) infinite alternate;
+      }
+
+      #name-cursor {
+        animation: blink 0.8s step-end infinite, move-cursor 5s steps(12, end) infinite alternate;
+      }
+
       /* Glowing animations */
       @keyframes neonPulse {
         0%, 100% { filter: drop-shadow(0 0 2px rgba(0, 229, 255, 0.4)) drop-shadow(0 0 8px rgba(0, 229, 255, 0.2)); }
@@ -72,16 +97,6 @@
         from { transform: rotate(360deg); }
         to { transform: rotate(0deg); }
       }
-
-      /* Typwriter cursor effect */
-      @keyframes blink {
-        0%, 100% { opacity: 0; }
-        50% { opacity: 1; }
-      }
-      .cursor {
-        animation: blink 0.8s step-end infinite;
-        fill: #00E5FF;
-      }
     </style>
 
     <!-- Gradients -->
@@ -115,6 +130,11 @@
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#3B82F6" stroke-opacity="0.04" stroke-width="1" />
       <circle cx="0" cy="0" r="1.5" fill="#3B82F6" fill-opacity="0.1" />
     </pattern>
+
+    <!-- Clip Path for typing animation -->
+    <clipPath id="clip-name">
+      <rect id="clip-rect" x="65" y="90" width="0" height="60" />
+    </clipPath>
   </defs>
 
   <!-- Background Base -->
@@ -150,20 +170,25 @@
   </g>
 
   <!-- Content (Left Column) -->
-  <g transform="translate(65, 75)">
+  <g transform="translate(0, 0)">
     <!-- Subtitle / Role console tag -->
-    <text x="0" y="20" class="brand-subtitle">&lt;SYSTEM_INIT: ABDUL KANI.B /&gt;</text>
+    <text x="65" y="95" class="brand-subtitle">&lt;SYSTEM_INIT: ABDUL KANI.B /&gt;</text>
     
-    <!-- Title / Main Name with glowing accent -->
-    <text x="0" y="70" class="brand-title">ABDUL KANI.B</text>
-    <rect x="0" y="85" width="220" height="4" rx="2" fill="url(#neon-blue)" />
+    <!-- Title / Main Name with typing animation -->
+    <g clip-path="url(#clip-name)">
+      <text x="65" y="140" class="brand-title">ABDUL KANI.B</text>
+    </g>
+    <!-- Typing Cursor -->
+    <rect id="name-cursor" x="65" y="105" width="4" height="40" fill="#00E5FF" />
+    
+    <rect x="65" y="160" width="220" height="4" rx="2" fill="url(#neon-blue)" />
     
     <!-- Role & Institution -->
-    <text x="0" y="125" class="brand-desc" font-weight="600" fill="#FFFFFF">AI Engineer &amp; Full-Stack MERN Developer</text>
-    <text x="0" y="150" class="brand-desc">B.Tech IT @ Sri Eshwar College Of Engineering</text>
+    <text x="65" y="200" class="brand-desc" font-weight="600" fill="#FFFFFF">AI Engineer &amp; Full-Stack MERN Developer</text>
+    <text x="65" y="225" class="brand-desc">B.Tech IT @ Sri Eshwar College Of Engineering</text>
     
     <!-- Tech Stack Mini Badges Visual -->
-    <g transform="translate(0, 185)">
+    <g transform="translate(65, 260)">
       <rect x="0" y="0" width="70" height="20" rx="4" fill="#1E293B" fill-opacity="0.6" stroke="#3B82F6" stroke-opacity="0.3" />
       <text x="35" y="14" class="tech-tag" text-anchor="middle">PYTHON</text>
       
@@ -175,7 +200,7 @@
     </g>
 
     <!-- Operational Status Indicator -->
-    <g transform="translate(0, 225)">
+    <g transform="translate(65, 300)">
       <circle cx="6" cy="6" r="5" fill="#00E5FF" class="pulse-glow" />
       <circle cx="6" cy="6" r="10" fill="none" stroke="#00E5FF" stroke-width="1.5">
         <animate attributeName="r" values="5;14;5" dur="2.5s" repeatCount="indefinite" />
