@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 160" width="100%" height="100%">
+  <defs>
+    <style type="text/css">
+      .panel-bg { fill: #070D19; stroke: #1E293B; stroke-width: 1.5; }
+      .lbl { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #64748B; font-weight: 600; }
+      .val { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #F8FAFC; font-weight: 700; }
+      .title-txt { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: #94A3B8; font-weight: 600; }
+    </style>
+    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+  <rect width="280" height="160" rx="8" class="panel-bg" />
+  
+  <!-- Top Bar Mockup -->
+  <rect x="15" y="15" width="250" height="24" rx="4" fill="#0B1528" stroke="#1E293B" stroke-width="1" />
+  <circle cx="28" cy="27" r="3" fill="#EF4444" />
+  <circle cx="38" cy="27" r="3" fill="#F59E0B" />
+  <circle cx="48" cy="27" r="3" fill="#10B981" />
+  <text x="140" y="30" class="title-txt" text-anchor="middle">abbu-assistant // speech_module</text>
+
+  <!-- Left: Audio Waveform Mockup -->
+  <g transform="translate(15, 52)">
+    <rect width="125" height="92" rx="4" fill="#0B1528" stroke="#1E293B" stroke-width="1" />
+    <text x="10" y="18" class="lbl">AUDIO WAVEFORM</text>
+    
+    <!-- Sound bars -->
+    <rect x="25" y="46" width="6" height="20" rx="3" fill="url(#wave-grad)">
+      <animate attributeName="height" values="10;34;10" dur="1s" repeatCount="indefinite" />
+      <animate attributeName="y" values="51;39;51" dur="1s" repeatCount="indefinite" />
+    </rect>
+    <rect x="37" y="36" width="6" height="40" rx="3" fill="url(#wave-grad)">
+      <animate attributeName="height" values="20;56;20" dur="1.2s" repeatCount="indefinite" />
+      <animate attributeName="y" values="46;28;46" dur="1.2s" repeatCount="indefinite" />
+    </rect>
+    <rect x="49" y="31" width="6" height="50" rx="3" fill="url(#wave-grad)">
+      <animate attributeName="height" values="30;68;30" dur="0.8s" repeatCount="indefinite" />
+      <animate attributeName="y" values="41;22;41" dur="0.8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="61" y="41" width="6" height="30" rx="3" fill="url(#wave-grad)">
+      <animate attributeName="height" values="15;46;15" dur="1.1s" repeatCount="indefinite" />
+      <animate attributeName="y" values="48;33;48" dur="1.1s" repeatCount="indefinite" />
+    </rect>
+    <rect x="73" y="31" width="6" height="50" rx="3" fill="url(#wave-grad)">
+      <animate attributeName="height" values="25;60;25" dur="1.4s" repeatCount="indefinite" />
+      <animate attributeName="y" values="43;26;43" dur="1.4s" repeatCount="indefinite" />
+    </rect>
+    <rect x="85" y="46" width="6" height="20" rx="3" fill="url(#wave-grad)">
+      <animate attributeName="height" values="8;30;8" dur="0.9s" repeatCount="indefinite" />
+      <animate attributeName="y" values="52;41;52" dur="0.9s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Right: Voice Commands log -->
+  <g transform="translate(155, 52)">
+    <rect width="110" height="92" rx="4" fill="#0B1528" stroke="#1E293B" stroke-width="1" />
+    <text x="10" y="20" class="lbl">RECOGNIZED INPUT</text>
+    
+    <text x="10" y="38" class="val" fill="#00E5FF">"Abbu, search AI"</text>
+    <text x="10" y="52" class="lbl">GOOGLE SEARCH</text>
+    
+    <text x="10" y="70" class="lbl">STATUS:</text>
+    <text x="10" y="82" class="val" fill="#10B981">EXECUTION_DONE</text>
+  </g>
+</svg>

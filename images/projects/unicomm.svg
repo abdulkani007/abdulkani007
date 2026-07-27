@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 160" width="100%" height="100%">
+  <defs>
+    <style type="text/css">
+      .panel-bg { fill: #070D19; stroke: #1E293B; stroke-width: 1.5; }
+      .lbl { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #64748B; font-weight: 600; }
+      .val { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #F8FAFC; font-weight: 700; }
+      .title-txt { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: #94A3B8; font-weight: 600; }
+      .mesh-line { stroke: #3B82F6; stroke-opacity: 0.4; stroke-width: 1; }
+      .mesh-node { fill: #00E5FF; }
+    </style>
+  </defs>
+  <rect width="280" height="160" rx="8" class="panel-bg" />
+  
+  <!-- Top Bar Mockup -->
+  <rect x="15" y="15" width="250" height="24" rx="4" fill="#0B1528" stroke="#1E293B" stroke-width="1" />
+  <circle cx="28" cy="27" r="3" fill="#EF4444" />
+  <circle cx="38" cy="27" r="3" fill="#F59E0B" />
+  <circle cx="48" cy="27" r="3" fill="#10B981" />
+  <text x="140" y="30" class="title-txt" text-anchor="middle">unicomm-ai // translation_node</text>
+
+  <!-- Left: MediaPipe Hand Landmarks Mockup -->
+  <g transform="translate(15, 52)">
+    <rect width="125" height="92" rx="4" fill="#0B1528" stroke="#1E293B" stroke-width="1" />
+    <text x="10" y="18" class="lbl">MEDIAPIPE TRACKING</text>
+    
+    <!-- Hand skeleton simulation -->
+    <path d="M 62 82 L 62 65 L 50 50 M 62 65 L 62 48 L 56 36 M 62 65 L 74 52 L 78 40 M 62 82 L 80 82 L 90 76" fill="none" class="mesh-line" stroke-width="1.5" />
+    <!-- Nodes -->
+    <circle cx="62" cy="82" r="3" class="mesh-node" />
+    <circle cx="62" cy="65" r="3" class="mesh-node" />
+    <circle cx="50" cy="50" r="2.5" class="mesh-node" />
+    <circle cx="62" cy="48" r="2.5" class="mesh-node" />
+    <circle cx="56" cy="36" r="2.5" class="mesh-node" />
+    <circle cx="74" cy="52" r="2.5" class="mesh-node" />
+    <circle cx="78" cy="40" r="2.5" class="mesh-node" />
+    <circle cx="80" cy="82" r="3" class="mesh-node" />
+    <circle cx="90" cy="76" r="2.5" class="mesh-node" />
+  </g>
+
+  <!-- Right: Speech Translation -->
+  <g transform="translate(155, 52)">
+    <rect width="110" height="92" rx="4" fill="#0B1528" stroke="#1E293B" stroke-width="1" />
+    <text x="10" y="20" class="lbl">REAL-TIME TRANSLATION</text>
+    
+    <text x="10" y="38" class="lbl">INPUT GESTURE:</text>
+    <text x="10" y="52" class="val" fill="#00E5FF">"WELCOME"</text>
+    
+    <text x="10" y="70" class="lbl">AUDIO OUTPUT:</text>
+    <text x="10" y="84" class="val" fill="#10B981">SYNTHESIZED</text>
+  </g>
+</svg>

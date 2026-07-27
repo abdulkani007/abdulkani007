@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
+  <defs>
+    <!-- Fonts -->
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .title {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 42px;
+        fill: #ffffff;
+        letter-spacing: -0.02em;
+      }
+      
+      .subtitle {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 700;
+        font-size: 16px;
+        fill: #3B82F6;
+        letter-spacing: 0.15em;
+      }
+      
+      .desc {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        fill: #94A3B8;
+        line-height: 1.6;
+      }
+      
+      .status-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 700;
+        font-size: 11px;
+        fill: #00E5FF;
+        letter-spacing: 0.1em;
+      }
+
+      /* Card hover & pulse effects */
+      @keyframes pulse-glow {
+        0% { opacity: 0.12; }
+        50% { opacity: 0.22; }
+        100% { opacity: 0.12; }
+      }
+
+      .ambient-glow-1 {
+        animation: pulse-glow 8s ease-in-out infinite;
+      }
+
+      .ambient-glow-2 {
+        animation: pulse-glow 12s ease-in-out infinite;
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#0083B0" />
+    </linearGradient>
+
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+
+    <radialGradient id="glow-cyan" cx="100%" cy="100%" r="100%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-blue" cx="0%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#1E3A8A" stop-opacity="0.3" />
+      <stop offset="60%" stop-color="#0B132B" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="320" fill="#030712" />
+  
+  <!-- Grid -->
+  <rect width="800" height="320" fill="url(#grid)" />
+
+  <!-- Ambient Glows -->
+  <rect class="ambient-glow-1" width="800" height="320" fill="url(#glow-cyan)" />
+  <rect class="ambient-glow-2" width="800" height="320" fill="url(#glow-blue)" />
+
+  <!-- Abstract Design Lines -->
+  <path d="M-100 280 C 150 200, 350 350, 900 180" fill="none" stroke="url(#cyan-grad)" stroke-opacity="0.04" stroke-width="4" />
+  <path d="M-100 100 C 250 300, 450 100, 900 260" fill="none" stroke="url(#blue-grad)" stroke-opacity="0.04" stroke-width="3" />
+
+  <!-- Glassmorphic Main Container -->
+  <rect x="30" y="30" width="740" height="260" rx="16" fill="#0B1329" fill-opacity="0.4" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+
+  <!-- Rotating Tech Ring (AI / Futuristic Concept) -->
+  <g transform="translate(640, 160)">
+    <!-- Outer Ring -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="url(#blue-grad)" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="5 10" />
+    <circle cx="0" cy="0" r="55" fill="none" stroke="url(#cyan-grad)" stroke-opacity="0.4" stroke-width="2" stroke-dasharray="25 15 5 15">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="25s" repeatCount="indefinite" />
+    </circle>
+    <!-- Inner Ring -->
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5" stroke-dasharray="10 5 10 5">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite" />
+    </circle>
+    <!-- Center Dot -->
+    <circle cx="0" cy="0" r="8" fill="url(#cyan-grad)" />
+    <circle cx="0" cy="0" r="16" fill="none" stroke="url(#cyan-grad)" stroke-opacity="0.3" stroke-width="1">
+      <animate attributeName="r" values="8;24;8" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Content (Left-Aligned) -->
+  <g transform="translate(70, 75)">
+    <!-- Subtitle (Role Tag) -->
+    <text x="0" y="20" class="subtitle">AI ENGINEER // FULL STACK DEVELOPER</text>
+    
+    <!-- Title (Name) -->
+    <text x="0" y="65" class="title" fill="url(#text-grad)">Abdul Kani</text>
+    
+    <!-- Description -->
+    <text x="0" y="105" class="desc">B.Tech Information Technology @ Sri Eshwar College of Engineering</text>
+    <text x="0" y="126" class="desc">Developing intelligent agentic systems and modern full-stack web applications.</text>
+    
+    <!-- Status Indicator -->
+    <g transform="translate(0, 160)">
+      <!-- Pulsing Dot -->
+      <circle cx="8" cy="8" r="4" fill="#00E5FF" />
+      <circle cx="8" cy="8" r="8" fill="none" stroke="#00E5FF" stroke-width="1">
+        <animate attributeName="r" values="4;10;4" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <!-- Text -->
+      <text x="24" y="12" class="status-text">LOCATED: TAMIL NADU, INDIA // SYSTEM_STATUS: OPERATIONAL</text>
+    </g>
+  </g>
+</svg>

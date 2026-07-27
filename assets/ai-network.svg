@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <!-- Styles for animations -->
+    <style type="text/css">
+      @keyframes pulse-node {
+        0%, 100% { r: 6px; fill: #00E5FF; filter: drop-shadow(0 0 2px #00E5FF); }
+        50% { r: 9px; fill: #3B82F6; filter: drop-shadow(0 0 8px #3B82F6); }
+      }
+      @keyframes float-group {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes pulse-path {
+        0% { stroke-dashoffset: 100; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .node-core {
+        animation: pulse-node 4s ease-in-out infinite;
+      }
+      .node-core-delay1 {
+        animation: pulse-node 4s ease-in-out infinite;
+        animation-delay: 1.3s;
+      }
+      .node-core-delay2 {
+        animation: pulse-node 4s ease-in-out infinite;
+        animation-delay: 2.6s;
+      }
+      .moving-flow {
+        stroke-dasharray: 10, 15;
+        animation: pulse-path 6s linear infinite;
+      }
+      .floating-layer {
+        animation: float-group 6s ease-in-out infinite;
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="net-blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="net-path-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#00E5FF" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background container -->
+  <rect width="400" height="300" rx="12" fill="#070D19" stroke="#1E293B" stroke-width="1.5" />
+  
+  <g class="floating-layer">
+    <!-- Network Lines -->
+    <path d="M 60 150 L 140 80 M 60 150 L 140 150 M 60 150 L 140 220" stroke="url(#net-path-grad)" stroke-width="1.5" />
+    <path d="M 140 80 L 260 80 M 140 80 L 260 150 M 140 150 L 260 80 M 140 150 L 260 220 M 140 220 L 260 150 M 140 220 L 260 220" stroke="url(#net-path-grad)" stroke-width="1.5" />
+    <path d="M 260 80 L 340 150 M 260 150 L 340 150 M 260 220 L 340 150" stroke="url(#net-path-grad)" stroke-width="1.5" />
+
+    <!-- Flowing Pulses -->
+    <path class="moving-flow" d="M 60 150 L 140 80 L 260 150 L 340 150" fill="none" stroke="#00E5FF" stroke-width="2" />
+    <path class="moving-flow" d="M 60 150 L 140 220 L 260 220 L 340 150" fill="none" stroke="#3B82F6" stroke-width="2" style="animation-delay: 2s;" />
+
+    <!-- Layer Rings -->
+    <!-- Input Layer -->
+    <circle cx="60" cy="150" r="14" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1" />
+    <!-- Hidden Layer 1 -->
+    <circle cx="140" cy="80" r="14" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="140" cy="150" r="14" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="140" cy="220" r="14" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1" />
+    <!-- Hidden Layer 2 -->
+    <circle cx="260" cy="80" r="14" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="260" cy="150" r="14" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="260" cy="220" r="14" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1" />
+    <!-- Output Layer -->
+    <circle cx="340" cy="150" r="14" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1" />
+
+    <!-- Nodes Core -->
+    <circle class="node-core" cx="60" cy="150" r="6" />
+    
+    <circle class="node-core-delay1" cx="140" cy="80" r="6" />
+    <circle class="node-core" cx="140" cy="150" r="6" />
+    <circle class="node-core-delay2" cx="140" cy="220" r="6" />
+    
+    <circle class="node-core-delay2" cx="260" cy="80" r="6" />
+    <circle class="node-core-delay1" cx="260" cy="150" r="6" />
+    <circle class="node-core" cx="260" cy="220" r="6" />
+    
+    <circle class="node-core-delay1" cx="340" cy="150" r="6" />
+  </g>
+
+  <!-- Caption overlay -->
+  <text x="200" y="275" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="11" fill="#94A3B8" letter-spacing="2" text-anchor="middle">AGENTIC NEURAL ORCHESTRATOR</text>
+</svg>
