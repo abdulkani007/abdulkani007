@@ -17,6 +17,11 @@
   <img src="assets/hero.svg" width="100%" alt="Abdul Kani Portfolio Banner" />
 </p>
 
+<!-- Animated Terminal Console (Whoami / Skills / Projects Index) -->
+<p align="center">
+  <img src="assets/terminal.svg" width="100%" alt="Interactive Terminal Session" />
+</p>
+
 <!-- Subtle Pulse Divider -->
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider Line" />
@@ -32,7 +37,7 @@ I am an **AI Engineer & Full-Stack Developer** pursuing my **B.Tech in Informati
 My work bridges algorithmic logic with robust scalable architectures, specializing in **Agentic AI orchestration**, deep learning workflows, and the MERN stack. I am passionate about engineering high-efficiency systems and translating complex user problems into fluid digital experiences.
 
 <p align="center">
-  <img src="assets/ai-network.svg" width="80%" style="border-radius: 8px;" alt="AI Neural Network Graph" />
+  <img src="assets/ai-network.svg" width="60%" style="border-radius: 8px;" alt="AI Neural Network Graph" />
 </p>
 
 ### ⚡ Technical Profile Summary
@@ -57,17 +62,13 @@ My work bridges algorithmic logic with robust scalable architectures, specializi
 ### iGenuine Technologies
 **MERN Stack Developer Intern** | `Dec 2025`
 
-<p align="center">
-  <img src="images/projects/igenuine.svg" width="80%" style="border-radius: 6px;" alt="iGenuine Chat Module Dashboard" />
-</p>
-
 Developed production-level full-stack web applications using the MERN stack, crafting high-performance, responsive user interfaces and building highly secure RESTful APIs.
 
-* **Real-Time Communications**: Implemented a responsive chat application with WebSocket integration for live, instant messaging.
-* **Security & Authentication**: Engineered secure user authentication flows (JWT) and route guards.
+* **Real-Time Communications**: Implemented a responsive chat application with WebSocket integration (Socket.io) for live, instant messaging.
+* **Security &amp; Authentication**: Engineered secure user authentication flows using JSON Web Tokens (JWT) and client route guards.
 * **Database Optimization**: Maintained backend databases and optimized MongoDB schemas for seamless data transactions.
 
-**Stack**: `MongoDB` • `Express` • `React.js` • `Node.js` • `RESTful APIs` • `WebSockets` • `Socket.io`
+**Stack**: `MongoDB` • `Express.js` • `React.js` • `Node.js` • `RESTful APIs` • `WebSockets` • `Socket.io`
 
 <br/>
 <p align="center">
@@ -81,11 +82,7 @@ Developed production-level full-stack web applications using the MERN stack, cra
 ### 01 / AgenticLoan AI
 **AI-Powered Loan Approval System** | `Feb 2026`
 
-<p align="center">
-  <img src="images/projects/agenticloan.svg" width="80%" style="border-radius: 6px;" alt="AgenticLoan Dashboard" />
-</p>
-
-An intelligent finance automation system designed to eliminate manual bottlenecks in the loan application and approval lifecycle.
+An enterprise-grade financial technology solution automating the entire loan lifecycle, from document extraction and compliance verification to eligibility prediction and approval routing.
 
 * **Document Extraction (OCR)**: Automatically extracts and cross-validates candidate info from uploaded identity proofs.
 * **Predictive Credit Rating**: Utilizes machine learning models to assess application risk and predict applicant eligibility.
@@ -100,10 +97,6 @@ An intelligent finance automation system designed to eliminate manual bottleneck
 ### 02 / SEMS
 **Sports Event Management System** | `Sep 2025`
 
-<p align="center">
-  <img src="images/projects/sems.svg" width="80%" style="border-radius: 6px;" alt="SEMS Dashboard" />
-</p>
-
 A secure, high-performance event management web system built to handle registrations and ticket access controls for large athletic events.
 
 * **QR Gateway Check-in**: Generates secure QR ticket credentials allowing scan-based contactless event entry.
@@ -117,10 +110,6 @@ A secure, high-performance event management web system built to handle registrat
 
 ### 03 / Abbu Assistant
 **AI Personal Voice Assistant** | `Mar 2025`
-
-<p align="center">
-  <img src="images/projects/abbu.svg" width="80%" style="border-radius: 6px;" alt="Abbu Voice wave Dashboard" />
-</p>
 
 A localized AI assistant designed to execute system-level automation and command execution through vocal cues.
 
