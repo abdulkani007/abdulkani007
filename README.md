@@ -240,7 +240,7 @@ A localized AI assistant designed to execute system-level automation and command
 
 <div align="center">
   <h3>🏆 GitHub Trophies</h3>
-  <img src="https://github-profile-trophy.vercel.app/?username=abdulkani007&theme=darkhub&no-background=false&no-border=false&margin-w=4&column=4&row=2&bg_color=0B1329&border_color=1E293B&title_color=00E5FF" width="100%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=abdulkani007&theme=darkhub&no-background=false&no-border=false&margin-w=4&column=4&row=2&bg_color=0B1329&border_color=1E293B&title_color=00E5FF" width="100%" alt="GitHub Trophies" />
 </div>
 
 <br/>
