@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 160" width="100%" height="100%">
+  <defs>
+    <style type="text/css">
+      .panel-bg { fill: #070D19; stroke: #1E293B; stroke-width: 1.5; }
+      .lbl { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #64748B; font-weight: 600; }
+      .val { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #F8FAFC; font-weight: 700; }
+      .title-txt { font-family: 'JetBrains Mono', monospace; font-size: 9px; fill: #94A3B8; font-weight: 600; }
+      .bubble-sent { fill: #1D4ED8; rx: 6px; }
+      .bubble-recv { fill: #1E293B; rx: 6px; }
+      .chat-text { font-family: system-ui, -apple-system, sans-serif; font-size: 8px; fill: #FFFFFF; }
+    </style>
+  </defs>
+  <rect width="280" height="160" rx="8" class="panel-bg" />
+  
+  <!-- Top Bar Mockup -->
+  <rect x="15" y="15" width="250" height="24" rx="4" fill="#0B1528" stroke="#1E293B" stroke-width="1" />
+  <circle cx="28" cy="27" r="3" fill="#EF4444" />
+  <circle cx="38" cy="27" r="3" fill="#F59E0B" />
+  <circle cx="48" cy="27" r="3" fill="#10B981" />
+  <text x="140" y="30" class="title-txt" text-anchor="middle">chat-module // socket.io_active</text>
+
+  <!-- Left: Active Users List -->
+  <g transform="translate(15, 52)">
+    <rect width="85" height="92" rx="4" fill="#0B1528" stroke="#1E293B" stroke-width="1" />
+    <text x="8" y="15" class="lbl">ACTIVE USERS</text>
+    
+    <circle cx="15" cy="32" r="5" fill="#10B981" />
+    <text x="26" y="35" font-family="system-ui, sans-serif" font-size="8" fill="#F8FAFC" font-weight="600">Admin</text>
+    
+    <circle cx="15" cy="50" r="5" fill="#10B981" />
+    <text x="26" y="53" font-family="system-ui, sans-serif" font-size="8" fill="#F8FAFC" font-weight="600">User_007</text>
+
+    <circle cx="15" cy="68" r="5" fill="#64748B" />
+    <text x="26" y="71" font-family="system-ui, sans-serif" font-size="8" fill="#94A3B8">Guest_24</text>
+  </g>
+
+  <!-- Right: Conversation Feed -->
+  <g transform="translate(110, 52)">
+    <rect width="155" height="92" rx="4" fill="#0B1528" stroke="#1E293B" stroke-width="1" />
+    
+    <!-- Recv Bubble -->
+    <rect x="10" y="10" width="100" height="20" class="bubble-recv" />
+    <text x="16" y="22" class="chat-text" fill="#94A3B8">Connecting to secure port...</text>
+    
+    <!-- Sent Bubble -->
+    <rect x="45" y="36" width="100" height="20" class="bubble-sent" />
+    <text x="51" y="48" class="chat-text">Authenticated via JWT.</text>
+
+    <!-- Recv Bubble -->
+    <rect x="10" y="62" width="115" height="20" class="bubble-recv" />
+    <text x="16" y="74" class="chat-text" fill="#94A3B8">WebSocket established: 101</text>
+    <circle cx="130" cy="72" r="3" fill="#10B981" />
+  </g>
+</svg>

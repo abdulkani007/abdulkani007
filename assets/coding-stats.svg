@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="100%">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&amp;family=Fira+Code:wght@500;700&amp;display=swap');
+      
+      .profile-title {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 13px;
+        fill: #94A3B8;
+        letter-spacing: 0.05em;
+      }
+      
+      .stat-num {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        fill: #FFFFFF;
+        letter-spacing: -0.02em;
+      }
+      
+      .stat-lbl {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        fill: #64748B;
+      }
+
+      .detail-txt {
+        font-family: 'Fira Code', monospace;
+        font-weight: 500;
+        font-size: 9px;
+        fill: #00E5FF;
+      }
+
+      .card-bg {
+        fill: #0B1329;
+        fill-opacity: 0.6;
+        stroke: #1E293B;
+        stroke-width: 1.2;
+      }
+
+      .card-bg:hover {
+        stroke: #3B82F6;
+        fill-opacity: 0.8;
+      }
+      
+      .section-heading {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 12px;
+        fill: #00E5FF;
+        letter-spacing: 0.15em;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Cover -->
+  <rect width="800" height="180" rx="12" fill="#030712" stroke="#1E293B" stroke-width="1" />
+  
+  <!-- Heading -->
+  <text x="30" y="32" class="section-heading">ALGORITHMIC &amp; DATA STRUCTURES METRICS</text>
+
+  <!-- Card 1: LeetCode -->
+  <g transform="translate(30, 48)">
+    <rect width="175" height="102" rx="10" class="card-bg" />
+    <!-- Gradient accent -->
+    <rect x="0" y="0" width="175" height="4" rx="2" fill="#FFA116" />
+    <text x="15" y="24" class="profile-title" fill="#FFA116">LEETCODE</text>
+    <text x="15" y="60" class="stat-num">230+</text>
+    <text x="15" y="75" class="stat-lbl">PROBLEMS SOLVED</text>
+    <text x="15" y="90" class="detail-txt">RANK: #621,246</text>
+  </g>
+
+  <!-- Card 2: Skillrack -->
+  <g transform="translate(220, 48)">
+    <rect width="175" height="102" rx="10" class="card-bg" />
+    <rect x="0" y="0" width="175" height="4" rx="2" fill="#3B82F6" />
+    <text x="15" y="24" class="profile-title" fill="#3B82F6">SKILLRACK</text>
+    <text x="15" y="60" class="stat-num">1120+</text>
+    <text x="15" y="75" class="stat-lbl">SOLVED PROBLEMS</text>
+    <text x="15" y="90" class="detail-txt">VERIFIED PLATFORM</text>
+  </g>
+
+  <!-- Card 3: CodeChef -->
+  <g transform="translate(410, 48)">
+    <rect width="175" height="102" rx="10" class="card-bg" />
+    <rect x="0" y="0" width="175" height="4" rx="2" fill="#D0011B" />
+    <text x="15" y="24" class="profile-title" fill="#D0011B">CODECHEF</text>
+    <text x="15" y="60" class="stat-num">300+</text>
+    <text x="15" y="75" class="stat-lbl">PROBLEMS SOLVED</text>
+    <text x="15" y="90" class="detail-txt">GLOBAL RANK: 41K</text>
+  </g>
+
+  <!-- Card 4: HackerRank -->
+  <g transform="translate(600, 48)">
+    <rect width="170" height="102" rx="10" class="card-bg" />
+    <rect x="0" y="0" width="170" height="4" rx="2" fill="#2EC866" />
+    <text x="15" y="24" class="profile-title" fill="#2EC866">HACKERRANK</text>
+    <text x="15" y="55" font-family="'Outfit', sans-serif" font-size="20" font-weight="900" fill="#FFFFFF">Java 5★</text>
+    <text x="15" y="72" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">C++ 2★</text>
+    <text x="15" y="90" class="detail-txt">PROBLEM SOLVING CERT</text>
+  </g>
+</svg>

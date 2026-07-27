@@ -15,8 +15,6 @@ jobs:
       - name: Generate Core Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Note: secrets.METRICS_TOKEN must be set up in repository secrets.
-          # Create a Personal Access Token (classic) with public_repo scope to use this.
           token: ${{ secrets.METRICS_TOKEN }}
           user: abdulkani007
           template: classic
