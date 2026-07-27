@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:005BEA&height=220&section=header&text=Abdul%20Kani&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20•%20Full%20Stack%20Developer%20•%20Problem%20Solver&descAlignY=60"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:00C9FF,50:0066FF,100:001F54&text=ABDUL%20KANI&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20|%20Full%20Stack%20Developer%20|%20Hackathon%20Builder&descSize=20&descAlignY=58"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=2500&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=850&lines=Hi+There+%F0%9F%91%8B+I'm+Abdul+Kani;Full+Stack+Developer;Artificial+Intelligence+Engineer;React+Developer;Building+Real+World+Projects;Hackathon+Enthusiast;Always+Learning+Something+New+%F0%9F%9A%80"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&pause=1000&color=00E7FF&center=true&vCenter=true&random=false&width=900&lines=Hi+%F0%9F%91%8B+I'm+Abdul+Kani;AI+Engineer;Full+Stack+Developer;Building+Real+World+AI+Applications;React+%7C+Node.js+%7C+Python+%7C+Java;Hackathon+Enthusiast;Always+Learning+Something+New+%F0%9F%9A%80"/>
 
-<img src="https://komarev.com/ghpvc/?username=abdulkani007&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
+<img src="https://komarev.com/ghpvc/?username=abdulkani007&style=for-the-badge&color=blue"/>
 
 </div>
 
@@ -12,67 +12,198 @@
 
 # 💫 About Me
 
-<img align="right" width="380" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif"/>
+<img align="right" width="380" src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif"/>
 
-🎓 Information Technology Student
+```yaml
+Name        : Abdul Kani
+Role        : AI Engineer & Full Stack Developer
+Education   : B.Tech Information Technology
+College     : Sri Eshwar College of Engineering
+Location    : Tamil Nadu, India
 
-💻 Passionate Full Stack Developer
+Currently Building:
+  - Agentic AI Applications
+  - AI-powered Web Platforms
+  - MERN Stack Projects
+  - Computer Vision Solutions
+  - Intelligent Automation Systems
+```
 
-🤖 AI & Machine Learning Enthusiast
+### 🚀 What I Love
 
-🏆 Hackathon Builder
-
-🌱 Currently learning
-
-- AI Agents
-- Cloud Computing
-- System Design
-- Generative AI
-- Advanced React
-
-⚡ Fun Fact
-
-> I love building projects that solve real-world problems using AI.
-
----
-
-# 🚀 Current Projects
-
-### 🏛 AI Bureaucracy Reduction Engine
-
-> AI-powered government assistant for application verification and approval automation.
+- 🤖 Artificial Intelligence
+- 🌐 Full Stack Development
+- ⚡ Building AI Products
+- 🏆 Hackathons
+- 📱 Modern UI/UX
+- ☁ Cloud Computing
 
 ---
 
-### 💰 LoanWise AI
-
-> AI Financial Decision Assistant that recommends the best loans using OCR + AI.
-
----
-
-### 🏫 CampusCare
-
-> Smart Hostel Complaint Management System with AI-powered duplicate complaint detection.
-
----
-
-### 🤟 UniComm AI
-
-> AI Communication Platform for Deaf and Speech-Impaired People.
-
----
-
-# 💻 Tech Stack
+# 🧠 Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,python,java,js,ts,html,css,tailwind,mongodb,mysql,firebase,git,github,vscode,figma,opencv,tensorflow"/>
+### Languages
+
+<img src="https://skillicons.dev/icons?i=python,java,cpp,c,javascript"/>
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=react,html,css,tailwind"/>
+
+### Backend
+
+<img src="https://skillicons.dev/icons?i=nodejs,express"/>
+
+### Database
+
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase"/>
+
+### AI / Tools
+
+<img src="https://skillicons.dev/icons?i=tensorflow,opencv,git,github,vscode,postman"/>
 
 </div>
 
 ---
 
-# 📊 GitHub Analytics
+# 🚀 Featured Projects
+
+## 🤖 AgenticLoan AI
+
+> AI-powered Loan Approval Platform
+
+✨ Features
+
+- GPT Powered AI Assistant
+- Voice Assistant
+- Loan Eligibility Prediction
+- OCR Document Processing
+- Admin Dashboard
+- Real-time Status Tracking
+
+**Tech**
+
+`React` `Node.js` `MongoDB` `AI`
+
+---
+
+## 🏛 AI Bureaucracy Reduction Engine
+
+AI Officer Assistant
+
+✔ Document Verification
+
+✔ AI Approval Prediction
+
+✔ Smart Recommendation
+
+✔ OCR
+
+✔ Automation
+
+---
+
+## 🏫 CampusCare
+
+AI Hostel Complaint System
+
+✔ Complaint Detection
+
+✔ Duplicate Complaint Grouping
+
+✔ Smart Dashboard
+
+✔ Analytics
+
+---
+
+## 🤟 UniComm AI
+
+Universal Communication Platform
+
+✔ Sign Language Recognition
+
+✔ Speech Recognition
+
+✔ Translation
+
+✔ Computer Vision
+
+---
+
+## ⚽ SEMS
+
+Sports Event Management System
+
+✔ QR Verification
+
+✔ Event Registration
+
+✔ Admin Dashboard
+
+✔ Authentication
+
+---
+
+## 🎤 Abbu Assistant
+
+AI Voice Assistant
+
+✔ Speech Recognition
+
+✔ Voice Commands
+
+✔ Google Integration
+
+✔ Automation
+
+---
+
+# 📊 Coding Profiles
+
+<div align="center">
+
+| Platform | Status |
+|----------|--------|
+| 💛 LeetCode | 230+ Problems |
+| 💙 Skillrack | 1120+ Problems |
+| 🤎 CodeChef | 300+ Problems |
+| ❤️ HackerRank | Problem Solving Certified |
+
+</div>
+
+---
+
+# 🏆 Achievements
+
+🥈 Runner-Up — Ripple Room, PSG Tech
+
+🏅 2nd Prize — Paper Presentation, KPR College
+
+🏆 Multiple Hackathon Finalist
+
+🤖 AI Application Developer
+
+💻 MERN Stack Developer
+
+🚀 Open Source Learner
+
+---
+
+# 📜 Certifications
+
+- NPTEL DBMS
+- Salesforce Agentforce Specialist
+- Oracle Java
+- MATLAB Onramp
+- Robotics & AI
+- IIT Bombay C & C++
+
+---
+
+# 📈 GitHub Analytics
 
 <p align="center">
 
@@ -90,17 +221,7 @@
 
 ---
 
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=abdulkani007&theme=algolia&no-frame=true&margin-w=15&row=2&column=4"/>
-
-</p>
-
----
-
-# 📈 Contribution Graph
+# 📊 Contribution Graph
 
 <p align="center">
 
@@ -110,17 +231,23 @@
 
 ---
 
-# 🌟 Achievements
+# 🏆 GitHub Trophies
 
-🏆 Runner-Up – Ripple Room (PSG Tech)
+<p align="center">
 
-🚀 Hackathon Finalist
+<img src="https://github-profile-trophy.vercel.app/?username=abdulkani007&theme=algolia&no-frame=true&column=4&margin-w=15"/>
 
-🤖 AI Application Developer
+</p>
 
-💡 Full Stack Web Developer
+---
 
-🎯 Problem Solver
+# 💻 Developer Quote
+
+<p align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+
+</p>
 
 ---
 
@@ -128,35 +255,43 @@
 
 <p align="center">
 
+<a href="mailto:abdulkani.b2024it@sece.ac.in">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
 <a href="https://www.linkedin.com/in/abdul-kani-b-3b89aa332">
-
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-
 </a>
 
 <a href="https://dynamic-trifle-5a321e.netlify.app/">
-
 <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox-browser&logoColor=white"/>
-
 </a>
 
 <a href="https://www.instagram.com/ab_naszz___">
-
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-
 </a>
 
 </p>
 
 ---
 
-# ☕ Developer Quote
+# ⚡ Fun Fact
 
-<p align="center">
+```text
+while(alive){
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+    Eat();
 
-</p>
+    Code();
+
+    Learn();
+
+    Build();
+
+    Repeat();
+
+}
+```
 
 ---
 
@@ -172,10 +307,10 @@
 
 <div align="center">
 
-## 💙 Thanks for visiting my profile!
+## ⭐ Thanks for Visiting My Profile ⭐
 
-### ⭐ Don't forget to Star my repositories ⭐
+### "Building AI that solves real-world problems."
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:005BEA,100:00C9FF&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:001F54,50:0066FF,100:00C9FF&section=footer"/>
 
 </div>
