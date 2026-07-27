@@ -237,7 +237,7 @@ A localized AI assistant designed to execute system-level automation and command
 <!-- ================= SNAKE CONTRIBUTION GRAPH ================= -->
 <div align="center">
   <h3>🐍 Snake Contribution Timeline</h3>
-  <img src="https://raw.githubusercontent.com/abdulkani007/abdulkani007/output/github-contribution-grid-snake.svg" width="100%" alt="Snake Contribution Animation" />
+  <img src="assets/github-contribution-grid-snake.svg" width="100%" alt="Snake Contribution Animation" />
 </div>
 
 <br/>
