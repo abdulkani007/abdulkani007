@@ -50,9 +50,9 @@
   <img src="assets/divider.svg" width="100%" alt="Divider Line" />
 </p>
 
-<!-- ================= SKILLS MATRIX ================= -->
+<!-- ================= SKILLS MATRIX (ICON DASHBOARD) ================= -->
 <p align="center">
-  <img src="assets/skills.svg" width="100%" alt="Skills Matrix" />
+  <img src="assets/skills.svg" width="100%" alt="Skills Matrix Dashboard" />
 </p>
 
 <p align="center">
@@ -94,23 +94,6 @@
   <a href="https://hackerrank.com/abdulkani007" target="_blank">
     <img src="https://img.shields.io/badge/HackerRank-050811?style=for-the-badge&logo=hackerrank&logoColor=2EC866" alt="HackerRank" />
   </a>
-</div>
-
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider Line" />
-</p>
-
-<!-- ================= DEVELOPER QUOTE ================= -->
-<div align="center">
-  <table width="80%" border="0" cellpadding="15" cellspacing="0" style="background-color: #050811; border: 1.5px solid #00FF66; border-radius: 4px;">
-    <tr>
-      <td>
-        <p style="font-family: 'Fira Code', ui-monospace, monospace; font-size: 14px; line-height: 1.6; font-style: italic; color: #E2E8F0; margin: 0;">
-          "&gt; The best way to predict the future is to design and program it. Driven by computational curiosity, executing with agentic precision."
-        </p>
-      </td>
-    </tr>
-  </table>
 </div>
 
 <p align="center">

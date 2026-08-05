@@ -1,31 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="100%">
   <defs>
     <style type="text/css">
       .hdr-text {
         font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 800;
-        font-size: 12px;
+        font-size: 11px;
         fill: #EAB308;
-        letter-spacing: 0.15em;
+        letter-spacing: 0.1em;
       }
       
-      .yaml-key {
-        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
-        font-weight: 700;
-        font-size: 12px;
-        fill: #00FF66;
-      }
-      
-      .yaml-val {
-        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
-        font-size: 12px;
-        fill: #38BDF8;
-      }
-
-      .yaml-txt {
-        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
-        font-size: 12px;
-        fill: #E2E8F0;
+      .grid-line {
+        stroke: #00FF66;
+        stroke-opacity: 0.15;
+        stroke-width: 1;
       }
 
       .card-bg {
@@ -35,62 +22,263 @@
         stroke-width: 1.2;
       }
 
-      @keyframes fade-in {
+      .tile-bg {
+        fill: #0B1329;
+        stroke: #00FF66;
+        stroke-opacity: 0.1;
+        stroke-width: 1;
+        transition: all 0.3s;
+      }
+
+      .tile-bg:hover {
+        stroke-opacity: 0.6;
+        stroke: #00FF66;
+      }
+
+      /* Hover label style */
+      .tile-lbl {
+        font-family: "Fira Code", ui-monospace, monospace;
+        font-size: 8px;
+        fill: #94A3B8;
+        text-anchor: middle;
+      }
+
+      @keyframes tile-fade {
         from { opacity: 0; }
         to { opacity: 1; }
       }
 
-      .f-line { animation: fade-in 0.8s forwards; opacity: 0; }
-      .fl-1 { animation-delay: 0.2s; }
-      .fl-2 { animation-delay: 0.5s; }
-      .fl-3 { animation-delay: 0.8s; }
-      .fl-4 { animation-delay: 1.1s; }
-      .fl-5 { animation-delay: 1.4s; }
-      .fl-6 { animation-delay: 1.7s; }
+      .animated-tile {
+        animation: tile-fade 0.6s forwards;
+        opacity: 0;
+      }
     </style>
   </defs>
 
   <!-- Shell Frame -->
-  <rect width="800" height="240" rx="4" fill="#030712" stroke="#1E293B" stroke-width="1.2" />
-  <rect x="15" y="15" width="770" height="210" rx="2" class="card-bg" />
+  <rect width="800" height="280" rx="4" fill="#030712" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="15" y="15" width="770" height="250" rx="2" class="card-bg" />
 
   <!-- Corner Brackets -->
   <path d="M 17 35 L 17 17 L 35 17" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
   <path d="M 783 35 L 783 17 L 765 17" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
-  <path d="M 17 205 L 17 223 L 35 223" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
-  <path d="M 783 205 L 783 223 L 765 223" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 17 245 L 17 263 L 35 263" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 783 245 L 783 263 L 765 263" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
 
-  <!-- Header -->
-  <text x="35" y="42" class="hdr-text">&gt; SKILLS_MATRIX_METRICS</text>
+  <!-- Grid Dividers (4 Panes) -->
+  <line x1="400" y1="25" x2="400" y2="255" class="grid-line" />
+  <line x1="25" y1="140" x2="775" y2="140" class="grid-line" />
 
-  <!-- YAML Lines -->
-  <!-- Languages -->
-  <g class="f-line fl-1" transform="translate(35, 75)">
-    <text x="0" y="0"><tspan class="yaml-key">Programming_Languages</tspan><tspan class="yaml-txt">: </tspan><tspan class="yaml-val">["C", "C++", "Python", "Java", "JavaScript"]</tspan></text>
+  <!-- ================= PANE 1: PROGRAMMING LANGUAGES ================= -->
+  <g transform="translate(30, 30)">
+    <text x="0" y="12" class="hdr-text">&gt; PROGRAMMING_LANGUAGES</text>
+    
+    <!-- C Tile -->
+    <g transform="translate(0, 25)" class="animated-tile" style="animation-delay: 0.1s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <circle cx="18" cy="18" r="10" fill="#3B82F6" />
+      <text x="18" y="22" font-family="sans-serif" font-weight="900" font-size="12" fill="#FFFFFF" text-anchor="middle">C</text>
+      <text x="18" y="48" class="tile-lbl">C</text>
+    </g>
+
+    <!-- C++ Tile -->
+    <g transform="translate(48, 25)" class="animated-tile" style="animation-delay: 0.2s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <circle cx="18" cy="18" r="10" fill="#0044BB" />
+      <text x="18" y="21" font-family="sans-serif" font-weight="900" font-size="10" fill="#FFFFFF" text-anchor="middle">C++</text>
+      <text x="18" y="48" class="tile-lbl">C++</text>
+    </g>
+
+    <!-- Java Tile -->
+    <g transform="translate(96, 25)" class="animated-tile" style="animation-delay: 0.3s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <path d="M 14 26 C 14 26, 11 20, 16 16 C 18 14, 22 14, 21 20 C 20 26, 25 26, 22 28 Z" fill="#E76F51" />
+      <path d="M 12 28 C 16 30, 20 30, 24 28" stroke="#3B82F6" stroke-width="1.5" fill="none" />
+      <text x="18" y="48" class="tile-lbl">Java</text>
+    </g>
+
+    <!-- JS Tile -->
+    <g transform="translate(144, 25)" class="animated-tile" style="animation-delay: 0.4s;">
+      <rect width="36" height="36" rx="6" fill="#F7DF1E" />
+      <text x="26" y="28" font-family="sans-serif" font-weight="900" font-size="11" fill="#000000" text-anchor="middle">JS</text>
+      <text x="18" y="48" class="tile-lbl">JavaScript</text>
+    </g>
+
+    <!-- Python Tile -->
+    <g transform="translate(192, 25)" class="animated-tile" style="animation-delay: 0.5s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <!-- Snake shapes -->
+      <path d="M 18 8 A 6 6 0 0 0 12 14 L 12 18 A 6 6 0 0 0 18 24 L 20 24 A 4 4 0 0 0 24 20 L 24 18 L 18 18 L 18 20 L 15 20 A 2 2 0 0 1 15 16 L 22 16 A 4 4 0 0 0 26 12 L 26 10 A 4 4 0 0 0 22 6 L 18 6" fill="#3B82F6" />
+      <path d="M 18 28 A 6 6 0 0 0 24 22 L 24 18 A 6 6 0 0 0 18 12 L 16 12 A 4 4 0 0 0 12 16 L 12 18 L 18 18 L 18 16 L 21 16 A 2 2 0 0 1 21 20 L 14 20 A 4 4 0 0 0 10 24 L 10 26 A 4 4 0 0 0 14 30 L 18 30" fill="#FFE873" />
+      <text x="18" y="48" class="tile-lbl">Python</text>
+    </g>
+
+    <!-- HTML Tile -->
+    <g transform="translate(240, 25)" class="animated-tile" style="animation-delay: 0.6s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <path d="M 11 8 L 25 8 L 23 25 L 18 28 L 13 25 Z" fill="#E44D26" />
+      <path d="M 18 8 L 18 26 L 21.5 24 L 23 11 Z" fill="#F16529" />
+      <text x="18" y="48" class="tile-lbl">HTML5</text>
+    </g>
+
+    <!-- CSS Tile -->
+    <g transform="translate(288, 25)" class="animated-tile" style="animation-delay: 0.7s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <path d="M 11 8 L 25 8 L 23 25 L 18 28 L 13 25 Z" fill="#264DE4" />
+      <path d="M 18 8 L 18 26 L 21.5 24 L 23 11 Z" fill="#2965F1" />
+      <text x="18" y="48" class="tile-lbl">CSS3</text>
+    </g>
   </g>
 
-  <!-- Frameworks -->
-  <g class="f-line fl-2" transform="translate(35, 100)">
-    <text x="0" y="0"><tspan class="yaml-key">Frameworks_and_Web</tspan><tspan class="yaml-txt">:    </tspan><tspan class="yaml-val">["Spring-Boot", "NodeJS", "Express", "ReactJS", "NextJS", "Tailwindcss"]</tspan></text>
+  <!-- ================= PANE 2: FRAMEWORKS & WEB ================= -->
+  <g transform="translate(420, 30)">
+    <text x="0" y="12" class="hdr-text">&gt; FRAMEWORKS_&amp;_WEB</text>
+    
+    <!-- Spring Boot Tile -->
+    <g transform="translate(0, 25)" class="animated-tile" style="animation-delay: 0.1s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <!-- Leaf -->
+      <path d="M 12 24 C 12 24, 12 12, 24 12 C 24 12, 24 24, 12 24" fill="#6DB33F" />
+      <path d="M 12 24 C 18 24, 24 18, 24 12" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
+      <text x="18" y="48" class="tile-lbl">Spring-Boot</text>
+    </g>
+
+    <!-- Node Tile -->
+    <g transform="translate(48, 25)" class="animated-tile" style="animation-delay: 0.2s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <!-- Hexagon leaf -->
+      <polygon points="18,10 26,14 26,22 18,26 10,22 10,14" fill="#68A063" />
+      <text x="18" y="48" class="tile-lbl">NodeJS</text>
+    </g>
+
+    <!-- Express Tile -->
+    <g transform="translate(96, 25)" class="animated-tile" style="animation-delay: 0.3s;">
+      <rect width="36" height="36" rx="6" fill="#1E293B" />
+      <text x="18" y="22" font-family="sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">ex</text>
+      <text x="18" y="48" class="tile-lbl">Express</text>
+    </g>
+
+    <!-- React Tile -->
+    <g transform="translate(144, 25)" class="animated-tile" style="animation-delay: 0.4s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <!-- Atom rings -->
+      <ellipse cx="18" cy="18" rx="4" ry="10" fill="none" stroke="#00D8FF" stroke-width="1.2" transform="rotate(30, 18, 18)" />
+      <ellipse cx="18" cy="18" rx="4" ry="10" fill="none" stroke="#00D8FF" stroke-width="1.2" transform="rotate(90, 18, 18)" />
+      <ellipse cx="18" cy="18" rx="4" ry="10" fill="none" stroke="#00D8FF" stroke-width="1.2" transform="rotate(150, 18, 18)" />
+      <circle cx="18" cy="18" r="2.5" fill="#00D8FF" />
+      <text x="18" y="48" class="tile-lbl">ReactJS</text>
+    </g>
+
+    <!-- NextJS Tile -->
+    <g transform="translate(192, 25)" class="animated-tile" style="animation-delay: 0.5s;">
+      <rect width="36" height="36" rx="6" fill="#000000" stroke="#333333" stroke-width="1" />
+      <text x="18" y="23" font-family="sans-serif" font-weight="900" font-size="15" fill="#FFFFFF" text-anchor="middle">N</text>
+      <text x="18" y="48" class="tile-lbl">NextJS</text>
+    </g>
+
+    <!-- Tailwind Tile -->
+    <g transform="translate(240, 25)" class="animated-tile" style="animation-delay: 0.6s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <!-- Waves -->
+      <path d="M 12 18 C 15 14, 18 14, 20 18 C 22 22, 24 22, 26 18" stroke="#38BDF8" stroke-width="2" fill="none" />
+      <path d="M 10 22 C 13 18, 16 18, 18 22 C 20 26, 22 26, 24 22" stroke="#38BDF8" stroke-width="2" fill="none" />
+      <text x="18" y="48" class="tile-lbl">Tailwind</text>
+    </g>
   </g>
 
-  <!-- Databases -->
-  <g class="f-line fl-3" transform="translate(35, 125)">
-    <text x="0" y="0"><tspan class="yaml-key">Database_Systems</tspan><tspan class="yaml-txt">:      </tspan><tspan class="yaml-val">["SQL", "MongoDB", "Firebase", "Supabase"]</tspan></text>
+  <!-- ================= PANE 3: DATABASE SYSTEMS ================= -->
+  <g transform="translate(30, 155)">
+    <text x="0" y="12" class="hdr-text">&gt; DATABASE_SYSTEMS</text>
+    
+    <!-- SQL Tile -->
+    <g transform="translate(0, 25)" class="animated-tile" style="animation-delay: 0.1s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <!-- Database cylinder -->
+      <ellipse cx="18" cy="12" rx="9" ry="3.5" fill="none" stroke="#00FF66" stroke-width="1.5" />
+      <path d="M 9 12 L 9 24 C 9 26, 27 26, 27 24 L 27 12" fill="none" stroke="#00FF66" stroke-width="1.5" />
+      <path d="M 9 18 C 9 20, 27 20, 27 18" fill="none" stroke="#00FF66" stroke-width="1.5" />
+      <text x="18" y="48" class="tile-lbl">SQL / MySQL</text>
+    </g>
+
+    <!-- MongoDB Tile -->
+    <g transform="translate(48, 25)" class="animated-tile" style="animation-delay: 0.2s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <!-- Leaf -->
+      <path d="M 18 8 C 14 14, 14 22, 18 28 C 22 22, 22 14, 18 8 Z" fill="#47A248" />
+      <path d="M 18 8 L 18 28" stroke="#FFFFFF" stroke-width="1" />
+      <text x="18" y="48" class="tile-lbl">MongoDB</text>
+    </g>
+
+    <!-- Firebase Tile -->
+    <g transform="translate(96, 25)" class="animated-tile" style="animation-delay: 0.3s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <polygon points="10,26 18,10 26,26 18,22" fill="#FFCA28" />
+      <polygon points="10,26 18,10 18,22" fill="#FFA000" />
+      <text x="18" y="48" class="tile-lbl">Firebase</text>
+    </g>
+
+    <!-- Supabase Tile -->
+    <g transform="translate(144, 25)" class="animated-tile" style="animation-delay: 0.4s;">
+      <rect width="36" height="36" rx="6" fill="#1E293B" />
+      <path d="M 13 25 L 22 15 L 17 15 L 23 7 L 14 17 L 19 17 Z" fill="#3ECF8E" />
+      <text x="18" y="48" class="tile-lbl">Supabase</text>
+    </g>
   </g>
 
-  <!-- Tools -->
-  <g class="f-line fl-4" transform="translate(35, 150)">
-    <text x="0" y="0"><tspan class="yaml-key">Developer_Tools</tspan><tspan class="yaml-txt">:       </tspan><tspan class="yaml-val">["Git", "GitHub", "Postman", "Canva", "Flutter", "Shellscripting"]</tspan></text>
-  </g>
+  <!-- ================= PANE 4: DEV TOOLS & PLATFORMS ================= -->
+  <g transform="translate(420, 155)">
+    <text x="0" y="12" class="hdr-text">&gt; DEV_TOOLS_&amp;_PLATFORMS</text>
+    
+    <!-- Git Tile -->
+    <g transform="translate(0, 25)" class="animated-tile" style="animation-delay: 0.1s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <!-- Git logo -->
+      <rect x="10" y="10" width="16" height="16" rx="2" fill="#F05032" transform="rotate(45, 18, 18)" />
+      <circle cx="18" cy="18" r="2.5" fill="#FFFFFF" />
+      <circle cx="14" cy="14" r="2" fill="#FFFFFF" />
+      <line x1="14" y1="14" x2="18" y2="18" stroke="#FFFFFF" stroke-width="1.5" />
+      <text x="18" y="48" class="tile-lbl">Git</text>
+    </g>
 
-  <!-- Concepts -->
-  <g class="f-line fl-5" transform="translate(35, 175)">
-    <text x="0" y="0"><tspan class="yaml-key">Core_Concepts</tspan><tspan class="yaml-txt">:         </tspan><tspan class="yaml-val">["DSA", "OOPS", "DBMS"]</tspan></text>
-  </g>
+    <!-- GitHub Tile -->
+    <g transform="translate(48, 25)" class="animated-tile" style="animation-delay: 0.2s;">
+      <rect width="36" height="36" rx="6" fill="#181717" />
+      <!-- Silhouette cat shape outline -->
+      <path d="M 18 8 C 12.5 8, 8 12.5, 8 18 C 8 22.4, 10.9 26.1, 14.8 27.4 C 15.3 27.5, 15.5 27.2, 15.5 26.9 C 15.5 26.6, 15.5 25.9, 15.5 25.0 C 12.7 25.6, 12.1 23.7, 12.1 23.7 C 11.7 22.6, 11.1 22.3, 11.1 22.3 C 10.2 21.7, 11.2 21.7, 11.2 21.7 C 12.2 21.8, 12.7 22.7, 12.7 22.7 C 13.6 24.2, 15.0 23.8, 15.6 23.5" fill="#FFFFFF" />
+      <text x="18" y="48" class="tile-lbl">GitHub</text>
+    </g>
 
-  <!-- Visualizations -->
-  <g class="f-line fl-6" transform="translate(35, 200)">
-    <text x="0" y="0"><tspan class="yaml-key">Data_Visualization</tspan><tspan class="yaml-txt">:    </tspan><tspan class="yaml-val">["Matplotlib", "Power BI"]</tspan></text>
+    <!-- Postman Tile -->
+    <g transform="translate(96, 25)" class="animated-tile" style="animation-delay: 0.3s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <!-- Rocket -->
+      <circle cx="18" cy="18" r="10" fill="#FF6C37" />
+      <path d="M 13 23 L 18 11 L 23 23 Z" fill="#FFFFFF" />
+      <text x="18" y="48" class="tile-lbl">Postman</text>
+    </g>
+
+    <!-- Flutter Tile -->
+    <g transform="translate(144, 25)" class="animated-tile" style="animation-delay: 0.4s;">
+      <rect width="36" height="36" rx="6" fill="#02569B" />
+      <!-- origami paths -->
+      <path d="M 18 10 L 26 18 L 22 22 L 18 18" fill="#47D5FF" />
+      <path d="M 18 26 L 22 22 L 26 26 L 18 26" fill="#02569B" />
+      <text x="18" y="48" class="tile-lbl">Flutter</text>
+    </g>
+
+    <!-- Shellscripting Tile -->
+    <g transform="translate(192, 25)" class="animated-tile" style="animation-delay: 0.5s;">
+      <rect width="36" height="36" rx="6" class="tile-bg" />
+      <text x="18" y="21" font-family="sans-serif" font-weight="900" font-size="12" fill="#00FF66" text-anchor="middle">&gt;_</text>
+      <text x="18" y="48" class="tile-lbl">Shell</text>
+    </g>
+
+    <!-- IntelliJ Tile -->
+    <g transform="translate(240, 25)" class="animated-tile" style="animation-delay: 0.6s;">
+      <rect width="36" height="36" rx="6" fill="#000000" />
+      <rect x="6" y="6" width="24" height="24" fill="none" stroke="#FF007F" stroke-width="1.2" />
+      <text x="18" y="22" font-family="sans-serif" font-weight="800" font-size="10" fill="#FFFFFF" text-anchor="middle">IJ</text>
+      <text x="18" y="48" class="tile-lbl">IntelliJ</text>
+    </g>
   </g>
 </svg>
