@@ -52,7 +52,7 @@
 
 <!-- ================= SKILLS MATRIX (ICON DASHBOARD) ================= -->
 <p align="center">
-  <img src="assets/skills.svg" width="100%" alt="Skills Matrix Dashboard" />
+  <img src="assets/skills-dashboard.svg" width="100%" alt="Skills Matrix Dashboard" />
 </p>
 
 <p align="center">
