@@ -87,11 +87,11 @@
     <img src="https://img.shields.io/badge/LeetCode-050811?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.codechef.com/users/abdulkani007" target="_blank">
+  <a href="https://www.codechef.com/users/abdulkani" target="_blank">
     <img src="https://img.shields.io/badge/CodeChef-050811?style=for-the-badge&logo=codechef&logoColor=D0011B" alt="CodeChef" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://hackerrank.com/abdulkani007" target="_blank">
+  <a href="https://www.hackerrank.com/profile/abdulkani_b20241" target="_blank">
     <img src="https://img.shields.io/badge/HackerRank-050811?style=for-the-badge&logo=hackerrank&logoColor=2EC866" alt="HackerRank" />
   </a>
 </div>
