@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <style type="text/css">
+      .hdr-text {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-weight: 800;
+        font-size: 12px;
+        fill: #EAB308;
+        letter-spacing: 0.15em;
+      }
+      
+      .table-hdr {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-weight: 700;
+        font-size: 11px;
+        fill: #64748B;
+      }
+      
+      .table-cell {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 12px;
+        fill: #E2E8F0;
+      }
+      
+      .status-active {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 11px;
+        fill: #00FF66;
+        font-weight: 700;
+      }
+
+      .status-stable {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 11px;
+        fill: #38BDF8;
+        font-weight: 700;
+      }
+
+      .card-bg {
+        fill: #050811;
+        stroke: #00FF66;
+        stroke-opacity: 0.15;
+        stroke-width: 1.2;
+      }
+
+      /* Radar Sweep Animation */
+      @keyframes radar-sweep {
+        0% { transform: translateY(0); opacity: 0; }
+        10% { opacity: 0.8; }
+        90% { opacity: 0.8; }
+        100% { transform: translateY(140px); opacity: 0; }
+      }
+
+      .sweep-line {
+        animation: radar-sweep 5s linear infinite;
+      }
+
+      /* Pulsing dots */
+      @keyframes dot-pulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; }
+      }
+      
+      .p-dot {
+        animation: dot-pulse 2s infinite;
+      }
+    </style>
+    
+    <linearGradient id="sweep-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00FF66" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00FF66" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#00FF66" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Shell Frame -->
+  <rect width="800" height="240" rx="4" fill="#030712" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="15" y="15" width="770" height="210" rx="2" class="card-bg" />
+
+  <!-- Corner Brackets -->
+  <path d="M 17 35 L 17 17 L 35 17" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 783 35 L 783 17 L 765 17" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 17 205 L 17 223 L 35 223" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 783 205 L 783 223 L 765 223" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+
+  <!-- Header -->
+  <text x="35" y="42" class="hdr-text">&gt; SYSTEM_DEPLOYMENTS_STATUS</text>
+
+  <!-- Table headers -->
+  <text x="45" y="75" class="table-hdr">DIRECTORY</text>
+  <text x="210" y="75" class="table-hdr">OPERATIONAL STATUS</text>
+  <text x="430" y="75" class="table-hdr">PRIMARY STACK</text>
+  <text x="680" y="75" class="table-hdr">LINK</text>
+  <line x1="35" y1="85" x2="765" y2="85" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Row 1: ScamON -->
+  <text x="45" y="110" class="table-cell" font-weight="700" fill="#00FF66">scamon-ai</text>
+  <circle cx="215" cy="106" r="4" fill="#00FF66" class="p-dot" />
+  <text x="228" y="110" class="status-active">ACTIVE (UX WINNER)</text>
+  <text x="430" y="110" class="table-cell">FastAPI // LangGraph // MongoDB</text>
+  <text x="680" y="110" class="table-cell" fill="#00FF66">[Code ↗]</text>
+
+  <!-- Row 2: CampusCare -->
+  <text x="45" y="140" class="table-cell" font-weight="700">campuscare</text>
+  <circle cx="215" cy="136" r="4" fill="#00FF66" class="p-dot" />
+  <text x="228" y="140" class="status-active">ACTIVE // STABLE</text>
+  <text x="430" y="140" class="table-cell">React // NodeJS // Socket.IO</text>
+  <text x="680" y="140" class="table-cell" fill="#00FF66">[Code ↗]</text>
+
+  <!-- Row 3: UniComm -->
+  <text x="45" y="170" class="table-cell" font-weight="700">unicomm</text>
+  <circle cx="215" cy="166" r="4" fill="#38BDF8" />
+  <text x="228" y="170" class="status-stable">ONLINE // READY</text>
+  <text x="430" y="170" class="table-cell">FastAPI // PyTorch // MediaPipe</text>
+  <text x="680" y="170" class="table-cell" fill="#00FF66">[Code ↗]</text>
+
+  <!-- Row 4: Abbu Assistant -->
+  <text x="45" y="200" class="table-cell" font-weight="700" fill="#64748B">abbu-assistant</text>
+  <circle cx="215" cy="196" r="4" fill="#64748B" />
+  <text x="228" y="200" class="table-cell" fill="#64748B">ARCHIVED</text>
+  <text x="430" y="200" class="table-cell" fill="#64748B">Python // SpeechRec // APIs</text>
+  <text x="680" y="200" class="table-cell" fill="#64748B">[Code ↗]</text>
+
+  <!-- Animated Scanner Radar sweep line -->
+  <g class="sweep-line" transform="translate(15, 60)" pointer-events="none">
+    <rect width="770" height="15" fill="url(#sweep-grad)" />
+  </g>
+</svg>

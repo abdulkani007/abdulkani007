@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <style type="text/css">
+      .hdr-text {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-weight: 800;
+        font-size: 12px;
+        fill: #EAB308;
+        letter-spacing: 0.15em;
+      }
+      
+      .yaml-key {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-weight: 700;
+        font-size: 12px;
+        fill: #00FF66;
+      }
+      
+      .yaml-val {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 12px;
+        fill: #38BDF8;
+      }
+
+      .yaml-txt {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 12px;
+        fill: #E2E8F0;
+      }
+
+      .card-bg {
+        fill: #050811;
+        stroke: #00FF66;
+        stroke-opacity: 0.15;
+        stroke-width: 1.2;
+      }
+
+      @keyframes fade-in {
+        from { opacity: 0; transform: translateY(4px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .f-line { animation: fade-in 0.8s forwards; opacity: 0; }
+      .fl-1 { animation-delay: 0.2s; }
+      .fl-2 { animation-delay: 0.5s; }
+      .fl-3 { animation-delay: 0.8s; }
+      .fl-4 { animation-delay: 1.1s; }
+      .fl-5 { animation-delay: 1.4s; }
+      .fl-6 { animation-delay: 1.7s; }
+    </style>
+  </defs>
+
+  <!-- Shell Frame -->
+  <rect width="800" height="240" rx="4" fill="#030712" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="15" y="15" width="770" height="210" rx="2" class="card-bg" />
+
+  <!-- Corner Brackets -->
+  <path d="M 17 35 L 17 17 L 35 17" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 783 35 L 783 17 L 765 17" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 17 205 L 17 223 L 35 223" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 783 205 L 783 223 L 765 223" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+
+  <!-- Header -->
+  <text x="35" y="42" class="hdr-text">&gt; SKILLS_MATRIX_METRICS</text>
+
+  <!-- YAML Lines -->
+  <!-- Languages -->
+  <g class="f-line fl-1" transform="translate(35, 75)">
+    <text x="0" y="0"><tspan class="yaml-key">Programming_Languages</tspan><tspan class="yaml-txt">: </tspan><tspan class="yaml-val">["C", "C++", "Python", "Java", "JavaScript"]</tspan></text>
+  </g>
+
+  <!-- Frameworks -->
+  <g class="f-line fl-2" transform="translate(35, 100)">
+    <text x="0" y="0"><tspan class="yaml-key">Frameworks_and_Web</tspan><tspan class="yaml-txt">:    </tspan><tspan class="yaml-val">["Spring-Boot", "NodeJS", "Express", "ReactJS", "NextJS", "Tailwindcss"]</tspan></text>
+  </g>
+
+  <!-- Databases -->
+  <g class="f-line fl-3" transform="translate(35, 125)">
+    <text x="0" y="0"><tspan class="yaml-key">Database_Systems</tspan><tspan class="yaml-txt">:      </tspan><tspan class="yaml-val">["SQL", "MongoDB", "Firebase", "Supabase"]</tspan></text>
+  </g>
+
+  <!-- Tools -->
+  <g class="f-line fl-4" transform="translate(35, 150)">
+    <text x="0" y="0"><tspan class="yaml-key">Developer_Tools</tspan><tspan class="yaml-txt">:       </tspan><tspan class="yaml-val">["Git", "GitHub", "Postman", "Canva", "Flutter", "Shellscripting"]</tspan></text>
+  </g>
+
+  <!-- Concepts -->
+  <g class="f-line fl-5" transform="translate(35, 175)">
+    <text x="0" y="0"><tspan class="yaml-key">Core_Concepts</tspan><tspan class="yaml-txt">:         </tspan><tspan class="yaml-val">["DSA", "OOPS", "DBMS"]</tspan></text>
+  </g>
+
+  <!-- Visualizations -->
+  <g class="f-line fl-6" transform="translate(35, 200)">
+    <text x="0" y="0"><tspan class="yaml-key">Data_Visualization</tspan><tspan class="yaml-txt">:    </tspan><tspan class="yaml-val">["Matplotlib", "Power BI"]</tspan></text>
+  </g>
+</svg>
