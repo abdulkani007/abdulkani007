@@ -12,7 +12,7 @@
 
 <!-- 01 / Premium Animated Hero Banner Header -->
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Abdul Kani SOC Banner" />
+  <img src="assets/hero-banner.svg" width="100%" alt="Abdul Kani SOC Banner" />
 </p>
 
 <!-- 02 / Animated Terminal Console (Whoami / Skills / Projects Index) -->
