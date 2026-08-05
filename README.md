@@ -62,9 +62,9 @@
 </p>
 <br/>
 
-<!-- ================= SKILLS MATRIX ================= -->
+<!-- ================= ACHIEVEMENTS CONSOLE ================= -->
 <p align="center">
-  <img src="assets/skills.svg" width="100%" alt="Skills Matrix" />
+  <img src="assets/achievements.svg" width="100%" alt="Competitive Hackathon Achievements" />
 </p>
 
 <br/>
@@ -73,7 +73,27 @@
 </p>
 <br/>
 
+<!-- ================= SKILLS MATRIX (YAML CODE BLOCK) ================= -->
+## 💻 Tech Matrix
+
+```yaml
+Programming_Languages: ["C", "C++", "Python", "Java", "JavaScript"]
+Frameworks_and_Web:    ["Spring-Boot", "NodeJS", "Express", "ReactJS", "NextJS", "Tailwindcss", "HTML5", "CSS3"]
+Database_Systems:      ["SQL", "MongoDB", "Firebase", "Supabase"]
+Developer_Tools:       ["Git", "GitHub", "Postman", "Canva", "Flutter", "Shellscripting", "IntelliJ"]
+Core_Concepts:         ["DSA", "OOPS", "DBMS"]
+Data_Visualization:    ["Matplotlib", "Power BI"]
+```
+
+<br/>
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Divider Line" />
+</p>
+<br/>
+
 <!-- ================= CERTIFICATIONS ================= -->
+## 📜 Industry Credentials
+
 <p align="center">
   <img src="assets/certifications.svg" width="100%" alt="Verified Industry Certifications" />
 </p>
@@ -85,6 +105,8 @@
 <br/>
 
 <!-- ================= CODING STATS ================= -->
+## 💻 Coding Milestones
+
 <p align="center">
   <img src="assets/coding-stats.svg" width="100%" alt="Coding Metrics Dashboard" />
 </p>
@@ -101,6 +123,25 @@
   <a href="https://hackerrank.com/abdulkani007" target="_blank">
     <img src="https://img.shields.io/badge/HackerRank-050811?style=for-the-badge&logo=hackerrank&logoColor=2EC866" alt="HackerRank" />
   </a>
+</div>
+
+<br/>
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Divider Line" />
+</p>
+<br/>
+
+<!-- ================= DEVELOPER QUOTE ================= -->
+<div align="center">
+  <table width="80%" border="0" cellpadding="15" cellspacing="0" style="background-color: #050811; border: 1.5px solid #00FF66; border-radius: 4px;">
+    <tr>
+      <td>
+        <p style="font-family: 'Fira Code', ui-monospace, monospace; font-size: 14px; line-height: 1.6; font-style: italic; color: #E2E8F0; margin: 0;">
+          "&gt; The best way to predict the future is to design and program it. Driven by computational curiosity, executing with agentic precision."
+        </p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>

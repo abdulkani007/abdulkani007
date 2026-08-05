@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <style type="text/css">
+      .hdr-text {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-weight: 800;
+        font-size: 12px;
+        fill: #EAB308;
+        letter-spacing: 0.15em;
+      }
+      
+      .ach-txt {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 12px;
+        fill: #E2E8F0;
+      }
+
+      .ach-date {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 12px;
+        fill: #64748B;
+        font-weight: 700;
+      }
+
+      .ach-badge {
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 11px;
+        fill: #00FF66;
+        font-weight: 700;
+      }
+
+      .card-bg {
+        fill: #050811;
+        stroke: #00FF66;
+        stroke-opacity: 0.15;
+        stroke-width: 1.2;
+      }
+
+      @keyframes fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+      .f-line { animation: fade-in 0.8s forwards; opacity: 0; }
+      .fl-1 { animation-delay: 0.2s; }
+      .fl-2 { animation-delay: 0.6s; }
+      .fl-3 { animation-delay: 1.0s; }
+      .fl-4 { animation-delay: 1.4s; }
+      .fl-5 { animation-delay: 1.8s; }
+    </style>
+  </defs>
+
+  <!-- Shell Frame -->
+  <rect width="800" height="240" rx="4" fill="#030712" stroke="#1E293B" stroke-width="1.2" />
+  <rect x="15" y="15" width="770" height="210" rx="2" class="card-bg" />
+
+  <!-- Corner Brackets -->
+  <path d="M 17 35 L 17 17 L 35 17" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 783 35 L 783 17 L 765 17" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 17 205 L 17 223 L 35 223" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+  <path d="M 783 205 L 783 223 L 765 223" fill="none" stroke="#00FF66" stroke-opacity="0.8" stroke-width="2" />
+
+  <!-- Header -->
+  <text x="35" y="42" class="hdr-text">&gt; COMPETITIVE_HACKATHON_ACHIEVEMENTS</text>
+
+  <!-- Achievement Lines -->
+  <!-- Achievement 1 -->
+  <g class="f-line fl-1" transform="translate(35, 75)">
+    <text x="0" y="0"><tspan class="ach-date">[2026-06]</tspan> <tspan class="ach-badge">UX_EXCELLENCE_AWARD</tspan> <tspan class="ach-txt">-- AGENTVERSE 2026 Hackathon Winner</tspan></text>
+  </g>
+
+  <!-- Achievement 2 -->
+  <g class="f-line fl-2" transform="translate(35, 105)">
+    <text x="0" y="0"><tspan class="ach-date">[2026-02]</tspan> <tspan class="ach-badge">SECOND_PRIZE</tspan> <tspan class="ach-txt">-- Paper Presentation @ Fiestaa '26, KPR College</tspan></text>
+  </g>
+
+  <!-- Achievement 3 -->
+  <g class="f-line fl-3" transform="translate(35, 135)">
+    <text x="0" y="0"><tspan class="ach-date">[2025-03]</tspan> <tspan class="ach-badge">SECOND_PLACE</tspan> <tspan class="ach-txt">-- Ripple Room Competition, Srishti 2025 (PSG Tech)</tspan></text>
+  </g>
+
+  <!-- Achievement 4 -->
+  <g class="f-line fl-4" transform="translate(35, 165)">
+    <text x="0" y="0"><tspan class="ach-date">[2024-10]</tspan> <tspan class="ach-badge">FINALIST</tspan> <tspan class="ach-txt">-- Embadathon (Inter-College Innovation Hackathon)</tspan></text>
+  </g>
+
+  <!-- Achievement 5 -->
+  <g class="f-line fl-5" transform="translate(35, 195)">
+    <text x="0" y="0"><tspan class="ach-date">[2024-08]</tspan> <tspan class="ach-badge">FINALIST</tspan> <tspan class="ach-txt">-- Creatathon &amp; Freshathon Hackathons (Teamwork showcase)</tspan></text>
+  </g>
+</svg>
