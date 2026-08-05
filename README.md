@@ -83,7 +83,7 @@
 </p>
 
 <div align="center" style="margin-top: 10px;">
-  <a href="https://leetcode.com/u/Abdulkani007/" target="_blank">
+  <a href="https://leetcode.com/u/Abdulkani_007/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-050811?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode" />
   </a>
   &nbsp;&nbsp;
