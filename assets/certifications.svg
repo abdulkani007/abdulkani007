@@ -2,23 +2,23 @@
   <defs>
     <style type="text/css">
       .cert-title {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 700;
-        font-size: 12px;
+        font-size: 11px;
         fill: #FFFFFF;
       }
       
       .cert-issuer {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 9px;
         fill: #94A3B8;
       }
       
       .cert-date {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 500;
-        font-size: 9px;
+        font-size: 8px;
         fill: #00FF66;
       }
 
@@ -28,11 +28,10 @@
         stroke: #00FF66;
         stroke-opacity: 0.2;
         stroke-width: 1.2;
-        transition: all 0.3s;
       }
       
       .section-heading {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 800;
         font-size: 12px;
         fill: #EAB308;

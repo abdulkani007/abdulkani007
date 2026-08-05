@@ -2,14 +2,14 @@
   <defs>
     <style type="text/css">
       .profile-title {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 800;
         font-size: 13px;
         letter-spacing: 0.05em;
       }
       
       .stat-num {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 900;
         font-size: 30px;
         fill: #FFFFFF;
@@ -17,14 +17,14 @@
       }
       
       .stat-lbl {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 600;
         font-size: 10px;
         fill: #64748B;
       }
 
       .detail-txt {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 500;
         font-size: 9px;
         fill: #00FF66;
@@ -39,7 +39,7 @@
       }
       
       .section-heading {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 800;
         font-size: 12px;
         fill: #EAB308;
@@ -89,8 +89,8 @@
     <rect width="170" height="102" rx="4" class="card-bg" />
     <rect x="0" y="0" width="170" height="3" fill="#2EC866" />
     <text x="15" y="24" class="profile-title" fill="#2EC866">HACKERRANK</text>
-    <text x="15" y="50" font-family="ui-monospace, monospace" font-size="16" font-weight="900" fill="#FFFFFF">Java 5★</text>
-    <text x="15" y="68" font-family="ui-monospace, monospace" font-size="13" font-weight="700" fill="#FFFFFF">C++ 2★ | SQL 2★</text>
+    <text x="15" y="50" font-family="Fira Code, ui-monospace, monospace" font-size="16" font-weight="900" fill="#FFFFFF">Java 5★</text>
+    <text x="15" y="68" font-family="Fira Code, ui-monospace, monospace" font-size="13" font-weight="700" fill="#FFFFFF">C++ 2★ | SQL 2★</text>
     <text x="15" y="86" class="detail-txt">C 1★ | Python 1★</text>
   </g>
 </svg>
