@@ -2,25 +2,24 @@
   <defs>
     <style type="text/css">
       .profile-title {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 800;
         font-size: 13px;
-        fill: #94A3B8;
         letter-spacing: 0.05em;
       }
       
       .stat-num {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 900;
-        font-size: 32px;
+        font-size: 30px;
         fill: #FFFFFF;
         letter-spacing: -0.02em;
       }
       
       .stat-lbl {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 600;
-        font-size: 11px;
+        font-size: 10px;
         fill: #64748B;
       }
 
@@ -28,75 +27,70 @@
         font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 500;
         font-size: 9px;
-        fill: #00E5FF;
+        fill: #00FF66;
       }
 
       .card-bg {
-        fill: #0B1329;
+        fill: #070D19;
         fill-opacity: 0.6;
-        stroke: #1E293B;
+        stroke: #00FF66;
+        stroke-opacity: 0.2;
         stroke-width: 1.2;
-      }
-
-      .card-bg:hover {
-        stroke: #3B82F6;
-        fill-opacity: 0.8;
       }
       
       .section-heading {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 800;
         font-size: 12px;
-        fill: #00E5FF;
+        fill: #EAB308;
         letter-spacing: 0.15em;
       }
     </style>
   </defs>
 
   <!-- Background Cover -->
-  <rect width="800" height="180" rx="12" fill="#030712" stroke="#1E293B" stroke-width="1" />
+  <rect width="800" height="180" rx="4" fill="#030712" stroke="#1E293B" stroke-width="1.2" />
   
   <!-- Heading -->
-  <text x="30" y="32" class="section-heading">ALGORITHMIC &amp; DATA STRUCTURES METRICS</text>
+  <text x="30" y="32" class="section-heading">&gt; ALGORITHMIC_METRICS_AUDIT</text>
 
   <!-- Card 1: LeetCode -->
   <g transform="translate(30, 48)">
-    <rect width="175" height="102" rx="10" class="card-bg" />
-    <!-- Gradient accent -->
-    <rect x="0" y="0" width="175" height="4" rx="2" fill="#FFA116" />
+    <rect width="175" height="102" rx="4" class="card-bg" />
+    <rect x="0" y="0" width="175" height="3" fill="#FFA116" />
     <text x="15" y="24" class="profile-title" fill="#FFA116">LEETCODE</text>
-    <text x="15" y="60" class="stat-num">230+</text>
-    <text x="15" y="75" class="stat-lbl">PROBLEMS SOLVED</text>
-    <text x="15" y="90" class="detail-txt">RANK: #621,246</text>
+    <text x="15" y="58" class="stat-num">200+</text>
+    <text x="15" y="73" class="stat-lbl">SOLVED PROBLEMS</text>
+    <text x="15" y="88" class="detail-txt">RATING: 1620 // #658K</text>
   </g>
 
   <!-- Card 2: Skillrack -->
   <g transform="translate(220, 48)">
-    <rect width="175" height="102" rx="10" class="card-bg" />
-    <rect x="0" y="0" width="175" height="4" rx="2" fill="#3B82F6" />
+    <rect width="175" height="102" rx="4" class="card-bg" />
+    <rect x="0" y="0" width="175" height="3" fill="#3B82F6" />
     <text x="15" y="24" class="profile-title" fill="#3B82F6">SKILLRACK</text>
-    <text x="15" y="60" class="stat-num">1120+</text>
-    <text x="15" y="75" class="stat-lbl">SOLVED PROBLEMS</text>
-    <text x="15" y="90" class="detail-txt">VERIFIED PLATFORM</text>
+    <text x="15" y="58" class="stat-num">1120+</text>
+    <text x="15" y="73" class="stat-lbl">SOLVED CHALLENGES</text>
+    <text x="15" y="88" class="detail-txt">VERIFIED PLATFORM</text>
   </g>
 
   <!-- Card 3: CodeChef -->
   <g transform="translate(410, 48)">
-    <rect width="175" height="102" rx="10" class="card-bg" />
-    <rect x="0" y="0" width="175" height="4" rx="2" fill="#D0011B" />
+    <rect width="175" height="102" rx="4" class="card-bg" />
+    <rect x="0" y="0" width="175" height="3" fill="#D0011B" />
     <text x="15" y="24" class="profile-title" fill="#D0011B">CODECHEF</text>
-    <text x="15" y="60" class="stat-num">300+</text>
-    <text x="15" y="75" class="stat-lbl">PROBLEMS SOLVED</text>
-    <text x="15" y="90" class="detail-txt">GLOBAL RANK: 41K</text>
+    <text x="15" y="58" class="stat-num">300+</text>
+    <text x="15" y="73" class="stat-lbl">COMPLETED TASKS</text>
+    <text x="15" y="88" class="detail-txt">ACTIVE CODE COMPETITOR</text>
   </g>
 
   <!-- Card 4: HackerRank -->
   <g transform="translate(600, 48)">
-    <rect width="170" height="102" rx="10" class="card-bg" />
-    <rect x="0" y="0" width="170" height="4" rx="2" fill="#2EC866" />
+    <rect width="170" height="102" rx="4" class="card-bg" />
+    <rect x="0" y="0" width="170" height="3" fill="#2EC866" />
     <text x="15" y="24" class="profile-title" fill="#2EC866">HACKERRANK</text>
-    <text x="15" y="55" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF">Java 5★</text>
-    <text x="15" y="72" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">C++ 2★</text>
-    <text x="15" y="90" class="detail-txt">PROBLEM SOLVING CERT</text>
+    <text x="15" y="50" font-family="ui-monospace, monospace" font-size="16" font-weight="900" fill="#FFFFFF">Java 5★</text>
+    <text x="15" y="68" font-family="ui-monospace, monospace" font-size="13" font-weight="700" fill="#FFFFFF">C++ 2★ | SQL 2★</text>
+    <text x="15" y="86" class="detail-txt">C 1★ | Python 1★</text>
   </g>
 </svg>

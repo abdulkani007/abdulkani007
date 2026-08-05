@@ -2,15 +2,14 @@
   <defs>
     <style type="text/css">
       .cert-title {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 700;
-        font-size: 11px;
+        font-size: 12px;
         fill: #FFFFFF;
-        letter-spacing: -0.01em;
       }
       
       .cert-issuer {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 400;
         font-size: 10px;
         fill: #94A3B8;
@@ -19,110 +18,94 @@
       .cert-date {
         font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 500;
-        font-size: 8px;
-        fill: #00E5FF;
+        font-size: 9px;
+        fill: #00FF66;
       }
 
       .card-bg {
-        fill: #0B1329;
+        fill: #070D19;
         fill-opacity: 0.6;
-        stroke: #1E293B;
-        stroke-width: 1;
+        stroke: #00FF66;
+        stroke-opacity: 0.2;
+        stroke-width: 1.2;
         transition: all 0.3s;
-      }
-
-      .card-bg:hover {
-        stroke: #00E5FF;
-        fill-opacity: 0.8;
       }
       
       .section-heading {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-weight: 800;
         font-size: 12px;
-        fill: #00E5FF;
+        fill: #EAB308;
         letter-spacing: 0.15em;
       }
     </style>
     
-    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.0" />
+    <linearGradient id="green-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#00FF66" stop-opacity="0.0" />
     </linearGradient>
   </defs>
 
   <!-- Background Cover -->
-  <rect width="800" height="240" rx="12" fill="#030712" stroke="#1E293B" stroke-width="1" />
+  <rect width="800" height="240" rx="4" fill="#030712" stroke="#1E293B" stroke-width="1.2" />
   
   <!-- Heading -->
-  <text x="30" y="30" class="section-heading">VERIFIED ACADEMIC &amp; INDUSTRY CREDENTIALS</text>
+  <text x="30" y="32" class="section-heading">&gt; VERIFIED_INDUSTRY_CREDENTIALS</text>
 
   <!-- Row 1 -->
   <!-- Card 1: Salesforce Agentforce -->
   <g transform="translate(30, 48)">
-    <rect width="235" height="75" rx="8" class="card-bg" />
-    <!-- Gradient glow overlay -->
-    <rect width="235" height="75" rx="8" fill="url(#glow-grad)" pointer-events="none" />
-    <circle cx="28" cy="38" r="14" fill="#00A1E0" fill-opacity="0.15" />
-    <path d="M 23 38 C 23 35, 25 32, 28 32 C 31 32, 33 35, 33 38 C 33 41, 31 44, 28 44 C 25 44, 23 41, 23 38" fill="none" stroke="#00E5FF" stroke-width="2" />
+    <rect width="235" height="75" rx="4" class="card-bg" />
+    <rect width="235" height="75" rx="4" fill="url(#green-glow)" pointer-events="none" />
+    <circle cx="28" cy="38" r="14" fill="#00FF66" fill-opacity="0.1" />
+    <path d="M 23 38 C 23 35, 25 32, 28 32 C 31 32, 33 35, 33 38 C 33 41, 31 44, 28 44 C 25 44, 23 41, 23 38" fill="none" stroke="#00FF66" stroke-width="1.8" />
     <text x="52" y="32" class="cert-title">Agentforce Specialist</text>
     <text x="52" y="46" class="cert-issuer">Salesforce (Trailhead)</text>
-    <text x="52" y="60" class="cert-date">DATE // DEC 2025</text>
+    <text x="52" y="60" class="cert-date">DATE // 2025</text>
   </g>
 
   <!-- Card 2: Java Oracle -->
   <g transform="translate(282, 48)">
-    <rect width="235" height="75" rx="8" class="card-bg" />
-    <rect width="235" height="75" rx="8" fill="url(#glow-grad)" pointer-events="none" />
-    <circle cx="28" cy="38" r="14" fill="#E76F51" fill-opacity="0.15" />
-    <path d="M 24 43 L 32 43 M 28 32 L 28 40 M 25 35 L 31 41" fill="none" stroke="#E76F51" stroke-width="2" />
+    <rect width="235" height="75" rx="4" class="card-bg" />
+    <rect width="235" height="75" rx="4" fill="url(#green-glow)" pointer-events="none" />
+    <circle cx="28" cy="38" r="14" fill="#00FF66" fill-opacity="0.1" />
+    <path d="M 24 43 L 32 43 M 28 32 L 28 40 M 25 35 L 31 41" fill="none" stroke="#00FF66" stroke-width="1.8" />
     <text x="52" y="32" class="cert-title">Java Oracle Batch</text>
     <text x="52" y="46" class="cert-issuer">Oracle Learning</text>
-    <text x="52" y="60" class="cert-date">DATE // NOV 2025</text>
+    <text x="52" y="60" class="cert-date">DATE // 2025</text>
   </g>
 
-  <!-- Card 3: DBMS NPTEL -->
+  <!-- Card 3: Robotics & AI Great Learning -->
   <g transform="translate(535, 48)">
-    <rect width="235" height="75" rx="8" class="card-bg" />
-    <rect width="235" height="75" rx="8" fill="url(#glow-grad)" pointer-events="none" />
-    <circle cx="28" cy="38" r="14" fill="#4CAF50" fill-opacity="0.15" />
-    <path d="M 23 34 L 33 34 M 23 38 L 33 38 M 23 42 L 33 42" fill="none" stroke="#4CAF50" stroke-width="2" />
-    <text x="52" y="32" class="cert-title">Database Management</text>
-    <text x="52" y="46" class="cert-issuer">NPTEL Certification</text>
-    <text x="52" y="60" class="cert-date">DATE // SEP 2025</text>
-  </g>
-
-  <!-- Row 2 -->
-  <!-- Card 4: Robotics & AI Great Learning -->
-  <g transform="translate(30, 135)">
-    <rect width="235" height="75" rx="8" class="card-bg" />
-    <rect width="235" height="75" rx="8" fill="url(#glow-grad)" pointer-events="none" />
-    <circle cx="28" cy="38" r="14" fill="#9C27B0" fill-opacity="0.15" />
-    <circle cx="28" cy="38" r="6" fill="none" stroke="#9C27B0" stroke-width="2" />
-    <text x="52" y="32" class="cert-title">Robotics &amp; AI</text>
+    <rect width="235" height="75" rx="4" class="card-bg" />
+    <rect width="235" height="75" rx="4" fill="url(#green-glow)" pointer-events="none" />
+    <circle cx="28" cy="38" r="14" fill="#00FF66" fill-opacity="0.1" />
+    <circle cx="28" cy="38" r="6" fill="none" stroke="#00FF66" stroke-width="1.8" />
+    <text x="52" y="32" class="cert-title">Robotics and AI</text>
     <text x="52" y="46" class="cert-issuer">Great Learning</text>
-    <text x="52" y="60" class="cert-date">DATE // NOV 2024</text>
+    <text x="52" y="60" class="cert-date">DATE // 2024</text>
   </g>
 
-  <!-- Card 5: C & CPP IIT Bombay -->
-  <g transform="translate(282, 135)">
-    <rect width="235" height="75" rx="8" class="card-bg" />
-    <rect width="235" height="75" rx="8" fill="url(#glow-grad)" pointer-events="none" />
-    <circle cx="28" cy="38" r="14" fill="#3F51B5" fill-opacity="0.15" />
-    <path d="M 25 35 L 31 35 M 25 41 L 31 41 M 28 32 L 28 44" fill="none" stroke="#3F51B5" stroke-width="2" />
+  <!-- Row 2 (Centered 2 Cards) -->
+  <!-- Card 4: C & CPP IIT Bombay -->
+  <g transform="translate(156, 135)">
+    <rect width="235" height="75" rx="4" class="card-bg" />
+    <rect width="235" height="75" rx="4" fill="url(#green-glow)" pointer-events="none" />
+    <circle cx="28" cy="38" r="14" fill="#00FF66" fill-opacity="0.1" />
+    <path d="M 25 35 L 31 35 M 25 41 L 31 41 M 28 32 L 28 44" fill="none" stroke="#00FF66" stroke-width="1.8" />
     <text x="52" y="32" class="cert-title">C &amp; CPP Training</text>
     <text x="52" y="46" class="cert-issuer">IIT Bombay</text>
-    <text x="52" y="60" class="cert-date">DATE // NOV 2024</text>
+    <text x="52" y="60" class="cert-date">DATE // 2024</text>
   </g>
 
-  <!-- Card 6: MATLAB MathWorks -->
-  <g transform="translate(535, 135)">
-    <rect width="235" height="75" rx="8" class="card-bg" />
-    <rect width="235" height="75" rx="8" fill="url(#glow-grad)" pointer-events="none" />
-    <circle cx="28" cy="38" r="14" fill="#FF9800" fill-opacity="0.15" />
-    <path d="M 23 42 C 28 35, 30 35, 33 42" fill="none" stroke="#FF9800" stroke-width="2" />
+  <!-- Card 5: MATLAB MathWorks -->
+  <g transform="translate(409, 135)">
+    <rect width="235" height="75" rx="4" class="card-bg" />
+    <rect width="235" height="75" rx="4" fill="url(#green-glow)" pointer-events="none" />
+    <circle cx="28" cy="38" r="14" fill="#00FF66" fill-opacity="0.1" />
+    <path d="M 23 42 C 28 35, 30 35, 33 42" fill="none" stroke="#00FF66" stroke-width="1.8" />
     <text x="52" y="32" class="cert-title">MATLAB Onramp</text>
     <text x="52" y="46" class="cert-issuer">MathWorks</text>
-    <text x="52" y="60" class="cert-date">DATE // DEC 2024</text>
+    <text x="52" y="60" class="cert-date">DATE // 2024</text>
   </g>
 </svg>

@@ -1,25 +1,25 @@
 <!--
   WORLD-CLASS GITHUB PROFILE README
   Designed for: Abdul Kani B.
-  Aesthetic: Premium Developer Portfolio (Futuristic, Minimal, Vercel-inspired)
-  Theme: Blue, White, Black, Glassmorphism
+  Aesthetic: Premium SOC Dashboard / Cyber-Green Terminal (ScamON Theme)
+  Theme: Neon Cyber-Green, Amber, Dark Slate, Black
 -->
 
 <div align="center">
   <!-- Minimalist Visitor Counter Badge -->
-  <img src="https://komarev.com/ghpvc/?username=abdulkani007&style=flat-square&label=VISITORS&color=00e5ff&labelColor=0b1329" alt="Visitor Counter" />
+  <img src="https://komarev.com/ghpvc/?username=abdulkani007&style=flat-square&label=VISITORS&color=00ff66&labelColor=050811" alt="Visitor Counter" />
 </div>
 
 <br/>
 
 <!-- Premium Animated Hero Banner Header -->
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Abdul Kani Portfolio Banner" />
+  <img src="assets/hero.svg" width="100%" alt="Abdul Kani SOC Banner" />
 </p>
 
 <!-- Animated Terminal Console (Whoami / Skills / Projects Index) -->
 <p align="center">
-  <img src="assets/terminal.svg" width="100%" alt="Interactive Terminal Session" />
+  <img src="assets/terminal.svg" width="100%" alt="SOC Terminal Session" />
 </p>
 
 <!-- Subtle Pulse Divider -->
@@ -32,17 +32,16 @@
 <!-- ================= ABOUT ME ================= -->
 ## 🚀 Profile Overview
 
-I am an **AI Engineer & Full-Stack Developer** pursuing my **B.Tech in Information Technology** at **Sri Eshwar College Of Engineering** (2024 - 2028).
+I am an **AI Engineer &amp; Full-Stack Developer** passionate about building robust client-server architectures, **multi-agent cybersecurity systems**, and **conversational AI agents**.
 
-My work bridges algorithmic logic with robust scalable architectures, specializing in **Agentic AI orchestration**, deep learning workflows, and the MERN stack. I am passionate about engineering high-efficiency systems and translating complex user problems into fluid digital experiences.
+My work combines algorithmic logic with reactive system designs. I specialize in developing orchestration frameworks, speech translation solutions, real-time socket interfaces, and secure API layers.
 
 <p align="center">
-  <img src="assets/ai-network.svg" width="60%" style="border-radius: 8px;" alt="AI Neural Network Graph" />
+  <img src="assets/ai-network.svg" width="60%" style="border-radius: 4px;" alt="AI Neural Network Graph" />
 </p>
 
 ### ⚡ Technical Profile Summary
-* 🎓 **Education**: B.Tech IT @ Sri Eshwar College Of Engineering (Current CGPA: `8.07` till 3rd SEM)
-* 🤖 **Core Passion**: Agentic AI, Computer Vision, and High-Performance client-server systems.
+* 🤖 **Core Focus**: Secure Multi-Agent Orchestration, Computer Vision, and Real-Time Event Infrastructures.
 * 📍 **Location**: Tamil Nadu, India
 * 📧 **Contact**: [abdulkani.b2024it@sece.ac.in](mailto:abdulkani.b2024it@sece.ac.in) | 📞 **+91 8072924468**
 
@@ -59,8 +58,8 @@ My work bridges algorithmic logic with robust scalable architectures, specializi
 <!-- ================= INTERNSHIPS ================= -->
 ## 💼 Professional Experience
 
-### iGenuine Technologies
-**MERN Stack Developer Intern** | `Dec 2025`
+### iGenuine Solutions Pvt. Ltd
+**MERN Stack Developer Intern** | `2025`
 
 Developed production-level full-stack web applications using the MERN stack, crafting high-performance, responsive user interfaces and building highly secure RESTful APIs.
 
@@ -79,46 +78,48 @@ Developed production-level full-stack web applications using the MERN stack, cra
 <!-- ================= FEATURED PROJECTS ================= -->
 ## ⚡ Engineering Projects
 
-### 01 / AgenticLoan AI
-**AI-Powered Loan Approval System** | `Feb 2026`
+### 01 / ScamON
+**Multi-Agent AI Cybersecurity Platform** | `June 2026`
 
-An enterprise-grade financial technology solution automating the entire loan lifecycle, from document extraction and compliance verification to eligibility prediction and approval routing.
+*Awarded the **UX Excellence Award** at the **AGENTVERSE 2026** Hackathon.*
 
-* **Document Extraction (OCR)**: Automatically extracts and cross-validates candidate info from uploaded identity proofs.
-* **Predictive Credit Rating**: Utilizes machine learning models to assess application risk and predict applicant eligibility.
-* **Conversational Agent**: Integrates a GPT-based chatbot and voice assistant to collect data dynamically and submit applications.
-* **Underwriter Console**: Built an admin dashboard for document inspection and application tracking.
+An advanced multi-agent security orchestration framework designed to detect, analyze, and investigate phishing attempts and scam vectors across email, SMS, calls, images, and malicious URLs.
 
-**Stack**: `React` • `Node.js` • `MongoDB` • `Groq AI` • `OCR` • `Voice Assistant`
-👉 [**Explore AgenticLoan AI Repo →**](https://github.com/abdulkani007/AgenticLoan-AI)
+* **Intelligent Threat Correlation**: Correlates sparse indicators of compromise (IOCs) across vectors to detect complex phishing rings.
+* **Explainable AI (XAI)**: Generates human-auditable logs explaining machine learning classification decisions.
+* **Secure Evidence Management**: Logs audit trials to secure database systems for legal and administrative reporting.
+* **SOC Audit Console**: Visualizes scanning runs, redirection chain hops, and security audit verdicts in real time.
 
----
-
-### 02 / SEMS
-**Sports Event Management System** | `Sep 2025`
-
-A secure, high-performance event management web system built to handle registrations and ticket access controls for large athletic events.
-
-* **QR Gateway Check-in**: Generates secure QR ticket credentials allowing scan-based contactless event entry.
-* **Access Control**: Role-based access hierarchies (Attendees, Organizers, Admins) for scheduling and security.
-* **Real-time Tracking**: Provides organizers with live participant registries and scoreboards.
-
-**Stack**: `React` • `Node.js` • `MongoDB` • `QR Verification` • `Auth`
-👉 [**Explore SEMS Repo →**](https://github.com/abdulkani007/SEMS)
+**Stack**: `React.js` • `FastAPI` • `Python` • `LangGraph` • `LangChain` • `OpenAI/Groq API` • `OCR` • `XAI` • `MongoDB` • `Firebase` • `Supabase` • `Docker`
+👉 [**Explore ScamON Repo →**](https://github.com/abdulkani007/ScamON)
 
 ---
 
-### 03 / Abbu Assistant
-**AI Personal Voice Assistant** | `Mar 2025`
+### 02 / CampusCare
+**Smart Hostel Management Platform** | `June 2026`
 
-A localized AI assistant designed to execute system-level automation and command execution through vocal cues.
+A scalable, multi-tenant administrative system designed to streamline facility maintenance and student operations.
 
-* **Voice Parsing**: High-accuracy speech recognition algorithms to process custom vocal inputs.
-* **Service Integrations**: Connects to Google APIs for instant web scraping, note-logging, and media search actions.
-* **System Automation**: Scripted command functions to open applications and perform system operations.
+* **Complaint Ticket Workflow**: Automates ticket categorization, prioritizes emergencies, and assigns jobs dynamically to campus workers.
+* **Real-time Collaboration**: Integrates socket-based chat for direct worker-student communication.
+* **AI Summaries**: Uses LLMs to generate high-level incident summaries and feedback analysis reports for hostel administration.
 
-**Stack**: `Python` • `Speech Recognition` • `Google API` • `Automation`
-👉 [**Explore Abbu Assistant Repo →**](https://github.com/abdulkani007/Abbu-Assistant)
+**Stack**: `React.js` • `Node.js` • `Express.js` • `MongoDB` • `Socket.IO` • `Groq AI` • `JWT` • `Firebase Auth`
+👉 [**Explore CampusCare Repo →**](https://github.com/abdulkani007/CampusCare)
+
+---
+
+### 03 / UniComm
+**Intelligent Sign Language &amp; Speech Translator** | `May 2026`
+
+An assistive accessibility platform that bridges communication gaps for deaf, mute, and speech-impaired individuals.
+
+* **Landmark Recognition**: Leverages MediaPipe and PyTorch to track hand gestures and translate them to natural text in real time.
+* **Multi-Modal Output**: Synthesizes translated text into clear synthetic speech audio.
+* **Bidirectional Communication**: Converts incoming audio back to clear text/sign-language frames.
+
+**Stack**: `React.js` • `FastAPI` • `PyTorch` • `MediaPipe` • `Firebase` • `MongoDB`
+👉 [**Explore UniComm Repo →**](https://github.com/abdulkani007/UniComm)
 
 <br/>
 <p align="center">
@@ -132,11 +133,11 @@ A localized AI assistant designed to execute system-level automation and command
 | Domain | Technologies &amp; Frameworks |
 | :--- | :--- |
 | **Programming** | `C` • `C++` • `Python` • `Java` • `JavaScript` |
-| **Frameworks &amp; Web** | `React.js` • `HTML5` • `CSS3` • `Tailwind CSS` • `Node.js` • `Express.js` |
-| **Databases** | `MongoDB` • `MySQL` • `Firebase` |
-| **Core Science** | `Data Structures &amp; Algorithms (DSA)` • `Database Management (DBMS)` • `OOPS` |
+| **Frameworks &amp; Web** | `Spring-Boot` • `NodeJS` • `Express` • `ReactJS` • `NextJS` • `Tailwindcss` • `HTML5` • `CSS3` |
+| **Databases** | `SQL` • `MongoDB` • `Firebase` • `Supabase` |
+| **Developer Tools** | `Git` • `GitHub` • `Postman` • `Canva` • `Flutter` • `Shellscripting` • `IntelliJ` |
+| **Core Concepts** | `Data Structures &amp; Algorithms (DSA)` • `Database Management (DBMS)` • `OOPS` |
 | **Data Viz** | `Matplotlib` • `Power BI (Basics)` |
-| **Developer Tools** | `VS Code` • `Git` • `GitHub` • `IntelliJ` • `Postman` • `Canva` • `Flutter` • `Shellscripting` |
 
 <br/>
 <p align="center">
@@ -151,12 +152,11 @@ A localized AI assistant designed to execute system-level automation and command
   <img src="assets/certifications.svg" width="100%" alt="Verified Industry Certifications" />
 </p>
 
-* 🚀 **Salesforce** — Certified Agentforce Specialist (Dec 2025)
-* ☕ **Oracle** — Java Oracle Batch (Nov 2025)
-* 📊 **NPTEL** — Database Management System (Sep 2025)
-* 🧠 **Great Learning** — Robotics and AI (Nov 2024)
-* 🎓 **IIT Bombay** — C &amp; CPP Training (Nov 2024)
-* 📐 **MathWorks** — MATLAB Onramp (Dec 2024)
+* 🚀 **Salesforce** — Certified Agentforce Specialist (2025)
+* ☕ **Oracle** — Java Oracle Batch (2025)
+* 🧠 **Great Learning** — Robotics and AI (2024)
+* 🎓 **IIT Bombay** — C &amp; CPP Training (2024)
+* 📐 **MathWorks** — MATLAB Onramp (2024)
 
 <br/>
 <p align="center">
@@ -171,22 +171,22 @@ A localized AI assistant designed to execute system-level automation and command
   <img src="assets/coding-stats.svg" width="100%" alt="Coding Metrics Dashboard" />
 </p>
 
-* **LeetCode** — Solved 230+ Problems (Max Streak: 24 | Active Days: 100+ | Rank: 621,246)
+* **LeetCode** — Solved 200+ Problems (Max Rating: 1620 | Global Rank: 658,460)
 * **Skillrack** — Solved 1120+ Programming Challenges
-* **CodeChef** — Solved 300+ Problems (Global Rank: 41,635)
-* **HackerRank** — Problem Solving (Basic Certified) | Java (5★) | C++ (2★) | SQL (2★)
+* **CodeChef** — Solved 300+ Problems
+* **HackerRank** — Java (5★) | C++ (2★) | SQL (2★) | C (1★) | Python (1★)
 
 <div align="center" style="margin-top: 15px;">
   <a href="https://leetcode.com/u/abdulkani007/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-0B1329?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode" />
+    <img src="https://img.shields.io/badge/LeetCode-050811?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.codechef.com/users/abdulkani007" target="_blank">
-    <img src="https://img.shields.io/badge/CodeChef-0B1329?style=for-the-badge&logo=codechef&logoColor=D0011B" alt="CodeChef" />
+    <img src="https://img.shields.io/badge/CodeChef-050811?style=for-the-badge&logo=codechef&logoColor=D0011B" alt="CodeChef" />
   </a>
   &nbsp;&nbsp;
   <a href="https://hackerrank.com/abdulkani007" target="_blank">
-    <img src="https://img.shields.io/badge/HackerRank-0B1329?style=for-the-badge&logo=hackerrank&logoColor=2EC866" alt="HackerRank" />
+    <img src="https://img.shields.io/badge/HackerRank-050811?style=for-the-badge&logo=hackerrank&logoColor=2EC866" alt="HackerRank" />
   </a>
 </div>
 
@@ -201,10 +201,11 @@ A localized AI assistant designed to execute system-level automation and command
 
 > [!NOTE]
 > ### Competitive Hackathons
-> * **Runner-up** — PSG Tech College (Ripple Room Competition, Srishti 2K25).
+> * **UX Excellence Award** — AGENTVERSE 2026 Hackathon (June 2026).
 > * **2nd Prize** — KPR College of Engineering (Paper Presentation, Fiestaa ’26).
-> * **Finalist** — Embadathon (Inter-college competition).
-> * **Active Competitor** — Participated in multiple hackathons on devfolio, Unstop, Creatathon, and Freshathon.
+> * **2nd Place** — PSG Tech College (Ripple Room Competition, Srishti 2025).
+> * **Finalist** — Embadathon (Inter-college innovation hackathon).
+> * **Active Competitor** — Participated in multiple hackathons on Devfolio, Unstop, Creatathon, and Freshathon.
 
 <br/>
 <p align="center">
@@ -216,20 +217,20 @@ A localized AI assistant designed to execute system-level automation and command
 ## 📊 System Metrics &amp; GitHub Statistics
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=abdulkani007&show_icons=true&theme=tokyonight&bg_color=0B1329&title_color=00E5FF&text_color=94A3B8&icon_color=3B82F6&border_color=1E293B" width="48%" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=abdulkani007&show_icons=true&bg_color=050811&title_color=00ff66&text_color=94a3b8&icon_color=00ff66&border_color=00ff66&border_radius=4" width="48%" alt="GitHub Stats" />
   &nbsp;
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=abdulkani007&layout=compact&theme=tokyonight&bg_color=0B1329&title_color=00E5FF&text_color=94A3B8&icon_color=3B82F6&border_color=1E293B" width="48%" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=abdulkani007&layout=compact&bg_color=050811&title_color=00ff66&text_color=94a3b8&icon_color=00ff66&border_color=00ff66&border_radius=4" width="48%" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulkani007&theme=tokyonight&background=0B1329&fire=3B82F6&ring=00E5FF&lbl_curr=94A3B8&curr_streak_num=00E5FF&border=1E293B" width="97%" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulkani007&background=050811&fire=EAB308&ring=00FF66&lbl_curr=94A3B8&curr_streak_num=00FF66&border=00ff66&border_radius=4" width="97%" alt="GitHub Streak Stats" />
 </p>
 
 <br/>
 
 <div align="center">
   <h3>🏆 GitHub Trophies</h3>
-  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=abdulkani007&theme=darkhub&no-background=false&no-border=false&margin-w=4&column=4&row=2&bg_color=0B1329&border_color=1E293B&title_color=00E5FF" width="100%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=abdulkani007&theme=darkhub&no-background=false&no-border=false&margin-w=4&column=4&row=2&bg_color=050811&border_color=00FF66&title_color=00FF66" width="100%" alt="GitHub Trophies" />
 </div>
 
 <br/>
@@ -248,11 +249,11 @@ A localized AI assistant designed to execute system-level automation and command
 
 <!-- ================= DEVELOPER QUOTE ================= -->
 <div align="center">
-  <table width="80%" border="0" cellpadding="15" cellspacing="0" style="background-color: #070D19; border-left: 4px solid #00E5FF; border-radius: 4px;">
+  <table width="80%" border="0" cellpadding="15" cellspacing="0" style="background-color: #050811; border: 1.5px solid #00FF66; border-radius: 4px;">
     <tr>
       <td>
-        <p style="font-family: 'JetBrains Mono', monospace; font-size: 15px; line-height: 1.6; font-style: italic; color: #E2E8F0; margin: 0;">
-          "The best way to predict the future is to design and program it. Driven by computational curiosity, executing with agentic precision."
+        <p style="font-family: 'Fira Code', ui-monospace, monospace; font-size: 14px; line-height: 1.6; font-style: italic; color: #E2E8F0; margin: 0;">
+          "&gt; The best way to predict the future is to design and program it. Driven by computational curiosity, executing with agentic precision."
         </p>
       </td>
     </tr>
@@ -270,19 +271,19 @@ A localized AI assistant designed to execute system-level automation and command
 
 <div align="center">
   <a href="https://www.linkedin.com/in/abdul-kani-b-3b89aa332" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0B1329?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn Connect" />
+    <img src="https://img.shields.io/badge/LinkedIn-050811?style=for-the-badge&logo=linkedin&logoColor=00FF66" alt="LinkedIn Connect" />
   </a>
   &nbsp;&nbsp;
   <a href="https://dynamic-trifle-5a321e.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-0B1329?style=for-the-badge&logo=googlechrome&logoColor=00E5FF" alt="Portfolio Website" />
+    <img src="https://img.shields.io/badge/Portfolio-050811?style=for-the-badge&logo=googlechrome&logoColor=00FF66" alt="Portfolio Website" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.instagram.com/ab_naszz___" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-0B1329?style=for-the-badge&logo=instagram&logoColor=00E5FF" alt="Instagram Link" />
+    <img src="https://img.shields.io/badge/Instagram-050811?style=for-the-badge&logo=instagram&logoColor=00FF66" alt="Instagram Link" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:abdulkani.b2024it@sece.ac.in">
-    <img src="https://img.shields.io/badge/Email-0B1329?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email Send" />
+    <img src="https://img.shields.io/badge/Email-050811?style=for-the-badge&logo=gmail&logoColor=00FF66" alt="Email Send" />
   </a>
 </div>
 

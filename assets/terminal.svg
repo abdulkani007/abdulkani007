@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="100%" height="100%">
   <defs>
-    <!-- Styles for Terminal Simulation -->
+    <!-- Styles for SOC Terminal Simulation -->
     <style type="text/css">
       .term-text {
-        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+        font-family: "Fira Code", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
         font-size: 13px;
         opacity: 0;
       }
       
-      .prompt-user { fill: #10B981; font-weight: bold; }
-      .prompt-host { fill: #3B82F6; }
+      .prompt-user { fill: #00FF66; font-weight: bold; }
       .prompt-char { fill: #FFFFFF; }
-      .command { fill: #00E5FF; }
+      .prompt-host { fill: #EAB308; }
+      .command { fill: #FFFFFF; }
       .output-txt { fill: #E2E8F0; }
-      .json-brace { fill: #F59E0B; }
-      .json-key { fill: #A78BFA; }
+      .json-brace { fill: #EAB308; }
+      .json-key { fill: #00FF66; }
       .json-val { fill: #38BDF8; }
       
       /* Loop Animation Sequence (Total 22s) */
@@ -28,7 +28,7 @@
       .s-2  { animation: fade-sequence 22s infinite; animation-delay: 0.6s; }   /* typing: whoami */
       .s-3  { animation: fade-sequence 22s infinite; animation-delay: 1.8s; }   /* Name */
       .s-4  { animation: fade-sequence 22s infinite; animation-delay: 2.1s; }   /* Role */
-      .s-5  { animation: fade-sequence 22s infinite; animation-delay: 2.4s; }   /* Education */
+      .s-5  { animation: fade-sequence 22s infinite; animation-delay: 2.4s; }   /* Focus */
       
       .s-6  { animation: fade-sequence 22s infinite; animation-delay: 4.5s; }   /* Prompt 2 */
       .s-7  { animation: fade-sequence 22s infinite; animation-delay: 5.1s; }   /* typing: cat skills.json */
@@ -36,15 +36,15 @@
       .s-9  { animation: fade-sequence 22s infinite; animation-delay: 6.8s; }   /* languages */
       .s-10 { animation: fade-sequence 22s infinite; animation-delay: 7.1s; }   /* frameworks */
       .s-11 { animation: fade-sequence 22s infinite; animation-delay: 7.4s; }   /* database */
-      .s-12 { animation: fade-sequence 22s infinite; animation-delay: 7.7s; }   /* AI/CV */
+      .s-12 { animation: fade-sequence 22s infinite; animation-delay: 7.7s; }   /* tools */
       .s-13 { animation: fade-sequence 22s infinite; animation-delay: 8.0s; }   /* } */
       
       .s-14 { animation: fade-sequence 22s infinite; animation-delay: 10.2s; }  /* Prompt 3 */
       .s-15 { animation: fade-sequence 22s infinite; animation-delay: 10.8s; }  /* typing: ls projects/ */
-      .s-16 { animation: fade-sequence 22s infinite; animation-delay: 12.2s; }  /* agenticloan */
-      .s-17 { animation: fade-sequence 22s infinite; animation-delay: 12.5s; }  /* sems */
-      .s-18 { animation: fade-sequence 22s infinite; animation-delay: 12.8s; }  /* abbu-assistant */
-      .s-19 { animation: fade-sequence 22s infinite; animation-delay: 13.1s; }  /* igenuine-chat */
+      .s-16 { animation: fade-sequence 22s infinite; animation-delay: 12.2s; }  /* scamon-ai */
+      .s-17 { animation: fade-sequence 22s infinite; animation-delay: 12.5s; }  /* campuscare */
+      .s-18 { animation: fade-sequence 22s infinite; animation-delay: 12.8s; }  /* unicomm */
+      .s-19 { animation: fade-sequence 22s infinite; animation-delay: 13.1s; }  /* igenuine */
       
       .s-20 { animation: fade-sequence 22s infinite; animation-delay: 15.5s; }  /* Prompt 4 (Ready) */
 
@@ -54,29 +54,29 @@
       }
       .cursor {
         animation: blink 0.9s infinite;
-        fill: #00E5FF;
+        fill: #00FF66;
       }
     </style>
 
     <!-- Gradients & Shadows -->
     <linearGradient id="term-border" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1E293B" />
-      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#00FF66" stop-opacity="0.4" />
       <stop offset="100%" stop-color="#1E293B" />
     </linearGradient>
   </defs>
 
   <!-- Terminal Shell Container -->
-  <rect width="800" height="420" rx="12" fill="#030712" />
-  <rect x="2" y="2" width="796" height="416" rx="10" fill="#070D19" stroke="url(#term-border)" stroke-width="2.5" />
+  <rect width="800" height="420" rx="6" fill="#030712" />
+  <rect x="2" y="2" width="796" height="416" rx="4" fill="#050811" stroke="url(#term-border)" stroke-width="2" />
 
   <!-- Window Header -->
   <path d="M 2 30 L 798 30" stroke="#1E293B" stroke-width="1.5" />
-  <circle cx="18" cy="16" r="5" fill="#EF4444" />
-  <circle cx="32" cy="16" r="5" fill="#F59E0B" />
-  <circle cx="46" cy="16" r="5" fill="#10B981" />
+  <circle cx="18" cy="16" r="5" fill="#EF4444" stroke="#8A1F1F" stroke-width="0.5" />
+  <circle cx="32" cy="16" r="5" fill="#EAB308" stroke="#8F6B05" stroke-width="0.5" />
+  <circle cx="46" cy="16" r="5" fill="#00FF66" stroke="#008833" stroke-width="0.5" />
   
-  <text x="400" y="20" font-family="system-ui, sans-serif" font-weight="600" font-size="11" fill="#64748B" text-anchor="middle">guest@abdulkani007: ~</text>
+  <text x="400" y="20" font-family="ui-monospace, monospace" font-weight="600" font-size="11" fill="#64748B" text-anchor="middle">guest@abdulkani007: ~/scamon_audit</text>
 
   <!-- terminal content -->
   <!-- COMMAND 1: whoami -->
@@ -92,8 +92,8 @@
     
     <!-- Output -->
     <text x="20" y="22" class="term-text s-3 output-txt">Name: Abdul Kani B.</text>
-    <text x="20" y="40" class="term-text s-4 output-txt">Role: AI Engineer &amp; Full-Stack Developer</text>
-    <text x="20" y="58" class="term-text s-5 output-txt">Education: B.Tech IT @ Sri Eshwar College of Engineering (CGPA: 8.07)</text>
+    <text x="20" y="40" class="term-text s-4 output-txt">Role: AI Engineer &amp; Full-Stack MERN Developer</text>
+    <text x="20" y="58" class="term-text s-5 output-txt">Focus: Secure Multi-Agent Systems, WebSockets, Cybersecurity</text>
   </g>
 
   <!-- COMMAND 2: cat skills.json -->
@@ -113,13 +113,13 @@
       <tspan class="json-key">"languages"</tspan><tspan class="output-txt">: </tspan><tspan class="json-val">["C", "C++", "Python", "Java", "JavaScript"]</tspan><tspan class="output-txt">,</tspan>
     </text>
     <text x="40" y="58" class="term-text s-10">
-      <tspan class="json-key">"frameworks"</tspan><tspan class="output-txt">: </tspan><tspan class="json-val">["React.js", "Node.js", "Express.js", "Tailwind"]</tspan><tspan class="output-txt">,</tspan>
+      <tspan class="json-key">"frameworks"</tspan><tspan class="output-txt">: </tspan><tspan class="json-val">["ReactJS", "NextJS", "NodeJS", "Spring-Boot", "FastAPI"]</tspan><tspan class="output-txt">,</tspan>
     </text>
     <text x="40" y="76" class="term-text s-11">
-      <tspan class="json-key">"databases"</tspan><tspan class="output-txt">: </tspan><tspan class="json-val">["MongoDB", "MySQL", "Firebase"]</tspan><tspan class="output-txt">,</tspan>
+      <tspan class="json-key">"databases"</tspan><tspan class="output-txt">: </tspan><tspan class="json-val">["MongoDB", "MySQL", "Firebase", "Supabase"]</tspan><tspan class="output-txt">,</tspan>
     </text>
     <text x="40" y="94" class="term-text s-12">
-      <tspan class="json-key">"ai_core"</tspan><tspan class="output-txt">: </tspan><tspan class="json-val">["Groq", "TensorFlow", "OpenCV", "MediaPipe"]</tspan>
+      <tspan class="json-key">"agents_ai"</tspan><tspan class="output-txt">: </tspan><tspan class="json-val">["LangGraph", "LangChain", "OpenAI", "Groq"]</tspan>
     </text>
     <text x="20" y="112" class="term-text s-13 json-brace">}</text>
   </g>
@@ -137,16 +137,16 @@
 
     <!-- Output -->
     <text x="20" y="22" class="term-text s-16">
-      <tspan fill="#10B981">drwxr-xr-x</tspan> <tspan class="output-txt">agenticloan-ai/   (AI Loan Approval System)</tspan>
+      <tspan fill="#00FF66">drwxr-xr-x</tspan> <tspan class="output-txt">scamon-ai/       (Multi-Agent Cybersecurity - UX Winner)</tspan>
     </text>
     <text x="20" y="40" class="term-text s-17">
-      <tspan fill="#10B981">drwxr-xr-x</tspan> <tspan class="output-txt">sems/             (Sports Event Management)</tspan>
+      <tspan fill="#00FF66">drwxr-xr-x</tspan> <tspan class="output-txt">campuscare/      (Smart Hostel Management Platform)</tspan>
     </text>
     <text x="20" y="58" class="term-text s-18">
-      <tspan fill="#10B981">drwxr-xr-x</tspan> <tspan class="output-txt">abbu-assistant/   (AI Voice Assistant)</tspan>
+      <tspan fill="#00FF66">drwxr-xr-x</tspan> <tspan class="output-txt">unicomm/         (Sign Language Translator Assistive App)</tspan>
     </text>
     <text x="20" y="76" class="term-text s-19">
-      <tspan fill="#10B981">drwxr-xr-x</tspan> <tspan class="output-txt">igenuine-chat/    (WebSocket Chat App)</tspan>
+      <tspan fill="#00FF66">drwxr-xr-x</tspan> <tspan class="output-txt">igenuine-work/   (MERN Production Internship API)</tspan>
     </text>
   </g>
 
