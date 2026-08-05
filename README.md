@@ -83,7 +83,7 @@
 </p>
 
 <div align="center" style="margin-top: 10px;">
-  <a href="https://leetcode.com/u/abdulkani007/" target="_blank">
+  <a href="https://leetcode.com/u/Abdulkani007/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-050811?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode" />
   </a>
   &nbsp;&nbsp;
@@ -102,7 +102,7 @@
 
 <!-- ================= CONNECT WITH ME ================= -->
 <div align="center">
-  <a href="https://www.linkedin.com/in/abdul-kani-b-3b89aa332" target="_blank">
+  <a href="https://www.linkedin.com/in/abdul-kani-b-3b89aa332/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-050811?style=for-the-badge&logo=linkedin&logoColor=00FF66" alt="LinkedIn Connect" />
   </a>
   &nbsp;&nbsp;
