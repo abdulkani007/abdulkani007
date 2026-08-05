@@ -10,8 +10,6 @@
   <img src="https://komarev.com/ghpvc/?username=abdulkani007&style=flat-square&label=VISITORS&color=00ff66&labelColor=050811" alt="Visitor Counter" />
 </div>
 
-<br/>
-
 <!-- 01 / Premium Animated Hero Banner Header -->
 <p align="center">
   <img src="assets/hero.svg" width="100%" alt="Abdul Kani SOC Banner" />
@@ -22,96 +20,69 @@
   <img src="assets/terminal.svg" width="100%" alt="SOC Terminal Session" />
 </p>
 
-<!-- Subtle Pulse Divider -->
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider Line" />
 </p>
 
-<br/>
-
-<!-- ================= SYSTEM OVERVIEW ================= -->
 <p align="center">
   <img src="assets/ai-network.svg" width="60%" style="border-radius: 4px;" alt="AI Neural Network Graph" />
 </p>
 
-<br/>
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider Line" />
 </p>
-<br/>
 
 <!-- ================= ACTIVE DEPLOYMENTS ================= -->
 <p align="center">
   <img src="assets/deployments.svg" width="100%" alt="System Deployments Status" />
 </p>
 
-<br/>
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider Line" />
 </p>
-<br/>
 
 <!-- ================= OPERATIONAL HISTORY ================= -->
 <p align="center">
   <img src="assets/history.svg" width="100%" alt="Operational History Logs" />
 </p>
 
-<br/>
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider Line" />
 </p>
-<br/>
+
+<!-- ================= SKILLS MATRIX ================= -->
+<p align="center">
+  <img src="assets/skills.svg" width="100%" alt="Skills Matrix" />
+</p>
+
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="Divider Line" />
+</p>
 
 <!-- ================= ACHIEVEMENTS CONSOLE ================= -->
 <p align="center">
   <img src="assets/achievements.svg" width="100%" alt="Competitive Hackathon Achievements" />
 </p>
 
-<br/>
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider Line" />
 </p>
-<br/>
-
-<!-- ================= SKILLS MATRIX (YAML CODE BLOCK) ================= -->
-## 💻 Tech Matrix
-
-```yaml
-Programming_Languages: ["C", "C++", "Python", "Java", "JavaScript"]
-Frameworks_and_Web:    ["Spring-Boot", "NodeJS", "Express", "ReactJS", "NextJS", "Tailwindcss", "HTML5", "CSS3"]
-Database_Systems:      ["SQL", "MongoDB", "Firebase", "Supabase"]
-Developer_Tools:       ["Git", "GitHub", "Postman", "Canva", "Flutter", "Shellscripting", "IntelliJ"]
-Core_Concepts:         ["DSA", "OOPS", "DBMS"]
-Data_Visualization:    ["Matplotlib", "Power BI"]
-```
-
-<br/>
-<p align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider Line" />
-</p>
-<br/>
 
 <!-- ================= CERTIFICATIONS ================= -->
-## 📜 Industry Credentials
-
 <p align="center">
   <img src="assets/certifications.svg" width="100%" alt="Verified Industry Certifications" />
 </p>
 
-<br/>
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider Line" />
 </p>
-<br/>
 
 <!-- ================= CODING STATS ================= -->
-## 💻 Coding Milestones
-
 <p align="center">
   <img src="assets/coding-stats.svg" width="100%" alt="Coding Metrics Dashboard" />
 </p>
 
-<div align="center" style="margin-top: 15px;">
+<div align="center" style="margin-top: 10px;">
   <a href="https://leetcode.com/u/abdulkani007/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-050811?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode" />
   </a>
@@ -125,11 +96,9 @@ Data_Visualization:    ["Matplotlib", "Power BI"]
   </a>
 </div>
 
-<br/>
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider Line" />
 </p>
-<br/>
 
 <!-- ================= DEVELOPER QUOTE ================= -->
 <div align="center">
@@ -144,11 +113,9 @@ Data_Visualization:    ["Matplotlib", "Power BI"]
   </table>
 </div>
 
-<br/>
 <p align="center">
   <img src="assets/divider.svg" width="100%" alt="Divider Line" />
 </p>
-<br/>
 
 <!-- ================= CONNECT WITH ME ================= -->
 <div align="center">
@@ -169,7 +136,6 @@ Data_Visualization:    ["Matplotlib", "Power BI"]
   </a>
 </div>
 
-<br/>
 <br/>
 
 <!-- ================= FOOTER ================= -->
